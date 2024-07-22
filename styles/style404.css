@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Lato");
+
+:root {
+  --white: #fcfcfc;
+  --gray: #aa906e;
+  --dark: #a67738;
+  --light: #ffebd1;
+  --big: "Abril Fatface", serif;
+  --body: "Lato", sans-serif;
+}
+
+body {
+  position: relative;
+  align-items: center;
+  background: var(--light);
+}
+
+.top {
+  margin-top: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top: -40px;
+}
+
+.ghost {
+  width: 50%;
+  height: 53%;
+  left: 25%;
+  top: 10%;
+  position: absolute;
+  border-radius: 50% 50% 0 0;
+  background: var(--white);
+  border: 1px solid var(--gray);
+  border-bottom: none;
+  animation: float 2s ease-out infinite;
+}
+
+.ghost-copy {
+  width: 50%;
+  height: 53%;
+  left: 25%;
+  top: 10%;
+  position: absolute;
+  border-radius: 50% 50% 0 0;
+  background: var(--white);
+  border: 1px solid var(--gray);
+  border-bottom: none;
+  animation: float 2s ease-out infinite;
+  z-index: 0;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 20%;
+}
+
+.eye,
+.eye-right {
+  position: absolute;
+  background: var(--dark);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  top: 40%;
+}
+
+.eye {
+  left: 25%;
+}
+
+.eye-right {
+  right: 25%;
+}
+
+.mouth {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 10px;
+  height: 10px;
+  border: 3px solid;
+  border-radius: 50%;
+  border-color: transparent var(--dark) var(--dark) transparent;
+  transform: rotate(45deg);
+}
+
+.one,
+.two,
+.three,
+.four {
+  position: absolute;
+  background: var(--white);
+  top: 85%;
+  width: 25%;
+  height: 23%;
+  border: 1px solid var(--gray);
+  z-index: 0;
+}
+
+.one {
+  border-radius: 0 0 100% 30%;
+  left: -1px;
+}
+
+.two {
+  left: 23%;
+  border-radius: 0 0 50% 50%;
+}
+
+.three {
+  left: 50%;
+  border-radius: 0 0 50% 50%;
+}
+
+.four {
+  left: 74.5%;
+  border-radius: 0 0 30% 100%;
+}
+
+.shadow {
+  position: absolute;
+  width: 30%;
+  height: 7%;
+  background: var(--gray);
+  left: 35%;
+  top: 80%;
+  border-radius: 50%;
+  animation: scale 2s infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(15px);
+  }
+}
+
+.bottom {
+  margin-top: 10px;
+}
+
+/* text styling */
+h1 {
+  font-family: var(--big);
+  color: var(--white);
+  text-align: center;
+  font-size: 9em;
+  margin: 0;
+  text-shadow: -1px 0 var(--gray), 0 1px var(--gray), 1px 0 var(--gray),
+    0 -1px var(--gray);
+}
+
+h3 {
+  font-family: var(--body);
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gray);
+  margin-top: -20px;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  font-family: var(--body);
+  color: var(--dark);
+  font-size: 1em;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
+
+.search {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* search style */
+.search-bar {
+  border: 1px solid var(--gray);
+  padding: 5px;
+  height: 20px;
+  margin-left: -30px;
+  width: 200px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border: 1px solid var(--light);
+}
+
+.search-btn {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  border: 1px solid var(--gray);
+  background: var(--gray);
+  text-align: center;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1em;
+  outline: none;
+}
+
+.search-btn:hover {
+  background: var(--white);
+  border: 1px solid var(--white);
+  color: var(--gray);
+  transition: all 0.2s ease;
+}
+
+.btn {
+  background: var(--white);
+  padding: 15px 20px;
+  margin: 5px;
+  color: var(--dark);
+  font-family: var(--body);
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:hover,
+a:hover {
+  background: var(--gray);
+  transition: all 0.4s ease-out;
+
+  a {
+    color: var(--white);
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: #fcfcfc;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .ghost,
+  .ghost-copy {
+    width: 60%;
+    height: 60%;
+    left: 20%;
+  }
+
+  .eye,
+  .eye-right {
+    width: 10px;
+    height: 10px;
+  }
+
+  .mouth {
+    width: 8px;
+    height: 8px;
+    border-width: 2px;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 22%;
+    height: 20%;
+  }
+
+  h1 {
+    font-size: 6em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .search-bar {
+    width: 150px;
+  }
+
+  .shadow {
+    margin-top: 10px;
+  }
+}
