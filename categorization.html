@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Сервис для консультантов | Категорирование информационной системы</title>
+</head>
+
+<body>
+    <!-- Навигатор -->
+    <div class="menu-section">
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+        <nav>
+            <ul role="navigation" class="hidden">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="regulations.html">Нормативно-правовые акты</a></li>
+                <li><a href="modeling.html">Моделирование угроз</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <!-- Категорирование -->
+        <div class="content">
+            <h2>Расчет уровня и класса защищенности ИС:</h2>
+            <div class="input_output_info">
+                <div class="input_info">
+                    <div class="ispdn">
+                        <fieldset>
+                            <legend>Сведения для расчета уровня защищенности</legend>
+                            <div class="">Тип угроз:
+                                <select id="ugroza" size="1" onchange="result21();">
+                                    <option selected="selected" value="1">Угрозы 1-го типа</option>
+                                    <option value="2">Угрозы 2-го типа</option>
+                                    <option value="3">Угрозы 3-го типа</option>
+                                </select>
+                            </div>
+                            <div class="">Тип ИСПДн:
+                                <select id="type_ispdn" size="1" onchange="result21();">
+                                    <option selected="selected" value="s21">Специальная ИСПДн</option>
+                                    <option value="s22">Биометрическая ИСПДн</option>
+                                    <option value="s23">Общедоступная ИСПДн</option>
+                                    <option value="s24">Иная ИСПДн</option>
+                                </select>
+                            </div>
+                            <div class="">Чьи данные обрабатываются:
+                                <select id="type_sotrud" size="1" onchange="result21();">
+                                    <option selected="selected" value="s31">Сотрудников этой организации</option>
+                                    <option value="s32">Не сотрудников этой организации</option>
+                                </select>
+                            </div>
+                            <div class="">Количество субъектов ПДн:
+                                <select id="kol-vo" size="1" onchange="result21();">
+                                    <option selected="selected" value="s41">Менее 100 000 человек</option>
+                                    <option value="s42">Более 100 000 человек</option>
+                                </select>
+                            </div>
+                            <details>
+                                <summary>Пояснительная информация</summary>
+                                <b>Тип угроз:</b><br>
+                                <i> - 1 тип </i>(связан с наличием недекларированных возможностей в системном ПО);<br>
+                                <i> - 2 тип </i>(связан с наличием недекларированных возможностей в прикладном ПО);<br>
+                                <i> - 3 тип </i>(связан с отсутствием недекларированных возможностей в системной и
+                                программном ПО).<br>
+
+                                <b>Тип ИСПДн:</b><br>
+                                <i> - ИСПДн-С </i>(система обрабатывает специальные категории ПДн);<br>
+                                <i> - ИСПДн-Б </i>(система обрабатывает биометрические категории ПДн);<br>
+                                <i> - ИСПДн-О </i>(система обрабатывает общедоступные категории ПДн);<br>
+                                <i> - ИСПДн-И </i>(система обрабатывает иные категории ПДн, не относящиеся к
+                                специальным, биометрическим и общедоступным категориям).<br>
+
+                                <b>Чьи данные обрабатываются:</b>
+                                - Субъект <i>является</i> сотрудником оператора ПД;<br>
+                                - Субъект <i>не является</i> сотрудником оператора ПД.<br>
+
+                                <b>Количество субъектов ПДн:</b><br>
+                                - Количество субъектов <i>больше</i> 100 000;<br>
+                                - Количество субъектов <i>меньше</i> 100 000.<br>
+                            </details>
+                        </fieldset>
+                    </div>
+                    <!-- ГИС -->
+                    <div class="gis">
+                        <fieldset>
+                            <legend>Сведения для расчета класса защищенности</legend>
+                            <fieldset>
+                                <legend>Уровень значимости информации</legend>
+                                <div class="">Конфиденциальность:
+                                    <select id="privacy" size="1" onchange="result17();">
+                                        <option selected="selected" value="1">Высокая</option>
+                                        <option value="2">Средняя</option>
+                                        <option value="3">Низкая</option>
+                                        <option value="4">Неопределённо</option>
+                                    </select>
+                                </div>
+                                <div class="">Целостность:
+                                    <select id="integrity" size="1" onchange="result17();">
+                                        <option selected="selected" value="1">Высокая</option>
+                                        <option value="2">Средняя</option>
+                                        <option value="3">Низкая</option>
+                                        <option value="4">Неопределённо</option>
+                                    </select>
+                                </div>
+                                <div class="">Доступность:
+                                    <select id="accessibility" size="1" onchange="result17();">
+                                        <option selected="selected" value="1">Высокая</option>
+                                        <option value="2">Средняя</option>
+                                        <option value="3">Низкая</option>
+                                        <option value="4">Неопределённо</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                            <div class="">Масштаб ИС:
+                                <select id="size_is" size="1" onchange="result17();">
+                                    <option value="fed">Федеральный</option>
+                                    <option value="reg">Региональный</option>
+                                    <option selected="selected" value="obj">Объектовый</option>
+                                </select>
+                            </div>
+                            <details>
+                                <summary>Пояснительная информация</summary>
+                                <b>Уровень значимости информации</b> определяется степенью возможного ущерба для
+                                обладателя информации
+                                и/или оператора от нарушения конфиденциальности, целостности или доступности:<br>
+                                <i>Конфиденциальность</i> - обязательное для выполнения лицом, получившим доступ к
+                                определенной информации,
+                                требование не передавать такую информацию третьим лицам без согласия ее обладателя.<br>
+                                <i>Целостность</i> — состояние информации, при котором отсутствует любое ее изменение
+                                либо
+                                изменение осуществляется только преднамеренно субъектами, имеющими на него право.<br>
+                                <i>Доступность</i> - состояние информации, при котором субъекты, имеющие права доступа,
+                                могут реализовать их беспрепятственно.<br>
+
+                                <b>Масштаб ИС:</b><br>
+                                <i> - Федеральный масштаб</i>, если ИС располагается на всей территории РФ/на территории
+                                федерального округа/на территории нескольких федеральных округов;<br>
+                                <i> - Региональный масштаб</i>, если ИС располагается на территории субъекта РФ/на
+                                территории нескольких субъектов РФ;<br>
+                                <i> - Объектовый масштаб</i>, если ИС располагается в пределах муниципального
+                                образования/в пределах одного органа государственной власти.<br>
+                            </details>
+                        </fieldset>
+                    </div>
+                    <!-- АСУ ТП -->
+                    <div class="asu_tp">
+                        <fieldset>
+                            <legend>Сведения для расчета класса защищенности (АСУ ТП)</legend>
+                            <fieldset>
+                                <legend>Уровень значимости информации</legend>
+                                <div class="">Конфиденциальность:
+                                    <select id="privacy_asu" size="1" onchange="result489();">
+                                        <option selected="selected" value="1">Высокая</option>
+                                        <option value="2">Средняя</option>
+                                        <option value="3">Низкая</option>
+                                        <option value="4">Неопределённо</option>
+                                    </select>
+                                </div>
+                                <div class="">Целостность:
+                                    <select id="integrity_asu" size="1" onchange="result489();">
+                                        <option selected="selected" value="1">Высокая</option>
+                                        <option value="2">Средняя</option>
+                                        <option value="3">Низкая</option>
+                                        <option value="4">Неопределённо</option>
+                                    </select>
+                                </div>
+                                <div class="">Доступность:
+                                    <select id="accessibility_asu" size="1" onchange="result489();">
+                                        <option selected="selected" value="1">Высокая</option>
+                                        <option value="2">Средняя</option>
+                                        <option value="3">Низкая</option>
+                                        <option value="4">Неопределённо</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                            <details>
+                                <summary>Пояснительная информация</summary>
+                                <b>Уровень значимости информации</b> определяется степенью возможного ущерба для
+                                обладателя информации
+                                и/или оператора от нарушения конфиденциальности, целостности или доступности:<br>
+                                <i>Конфиденциальность</i> - обязательное для выполнения лицом, получившим доступ к
+                                определенной информации,
+                                требование не передавать такую информацию третьим лицам без согласия ее обладателя.<br>
+                                <i>Целостность</i> — состояние информации, при котором отсутствует любое ее изменение
+                                либо
+                                изменение осуществляется только преднамеренно субъектами, имеющими на него право.<br>
+                                <i>Доступность</i> - состояние информации, при котором субъекты, имеющие права доступа,
+                                могут реализовать их беспрепятственно.<br>
+                            </details>
+                        </fieldset>
+                    </div>
+                    <div class="kii">
+                        <button type="button">
+                            <a href="kii.html" target="blank">Категорирование значимого объекта КИИ</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="output_info">
+                    <h2>Ваша система имеет:</h2>
+                    <div class="text">
+                        <p>Уровень защищенности: <b class="results" id="results21"></b></p>
+                    </div>
+                    <div class="text">
+                        <p>Класс защищенности: <b class="results" id="results17"></b></p>
+                    </div>
+                    <div class="text">
+                        <p>Категория значимости: <b class="results" id="results187_display"></b></p>
+                    </div>
+                    <div class="text">
+                        <p>Класс защищенности <i>(АСУ ТП)</i>: <b class="results" id="results489"></b></p>
+                    </div>
+                    <div class="save_info">
+                        <form>
+                            <fieldset>
+                                <div onclick="changeURL();" class="save_info_text">
+                                    <input class="checkbox" type="checkbox" id="checkbox_ispdn"><label>ИСПДн</label>
+                                    <input class="checkbox" type="checkbox" id="checkbox_gis"><label>ГИС</label>
+                                    <input class="checkbox" type="checkbox" id="checkbox_kii"><label>КИИ</label>
+                                    <input class="checkbox" type="checkbox" id="checkbox_asu"><label>АСУ ТП</label>
+                                </div>
+                                <h3>Необходимо:</h3>
+                                <fieldset class="fieldset_dopy">
+                                    <input class="checkbox" type="checkbox" id="checkbox_upgrade"><label>Усилительные
+                                        меры</label>
+                                    <input class="checkbox" type="checkbox" id="checkbox_skzi"><label>СКЗИ</label>
+                                    <input class="checkbox" type="checkbox" id="checkbox_pp1119"><label>Меры из ПП
+                                        №1119</label>
+                                </fieldset>
+                                <div>
+                                    <button type="button">
+                                        <a class="save_info" href="/" id="save" download>Скачать меры</a>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Футер -->
+        <div class="footer"><span>Информация об администраторе</span></div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
