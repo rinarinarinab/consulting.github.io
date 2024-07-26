@@ -443,19 +443,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
                 "ispdn_gis_11_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
                 "ispdn_gis_12_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
                 "ispdn_gis_13_usil.docx"
               );
               break;
@@ -465,19 +465,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
                 "ispdn_gis_21_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
                 "ispdn_gis_22_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
                 "ispdn_gis_23_usil.docx"
               );
               break;
@@ -487,19 +487,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
                 "ispdn_gis_31_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
                 "ispdn_gis_32_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
                 "ispdn_gis_33_usil.docx"
               );
               break;
@@ -509,19 +509,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
                 "ispdn_gis_41_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
                 "ispdn_gis_42_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
+                "/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
                 "ispdn_gis_43_usil.docx"
               );
               break;
@@ -534,19 +534,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
+                "/files/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
                 "ispdn_gis_11.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
+                "/files/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
                 "ispdn_gis_12.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
+                "/files/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
                 "ispdn_gis_13.docx"
               );
               break;
@@ -556,19 +556,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
+                "/files/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
                 "ispdn_gis_21.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
+                "/files/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
                 "ispdn_gis_22.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
+                "/files/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
                 "ispdn_gis_23.docx"
               );
               break;
@@ -578,19 +578,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
+                "/files/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
                 "ispdn_gis_31.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
+                "/files/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
                 "ispdn_gis_32.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
+                "/files/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
                 "ispdn_gis_33.docx"
               );
               break;
@@ -600,19 +600,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
+                "/files/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
                 "ispdn_gis_41.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
+                "/files/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
                 "ispdn_gis_42.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
+                "/files/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
                 "ispdn_gis_43.docx"
               );
               break;
@@ -622,28 +622,28 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (checkbox_ispdn && results21) {
       switch (results21) {
         case "1":
-          setDownloadLink("/main/files/ISPDn/ispdn1.docx", "ispdn1.docx");
+          setDownloadLink("/files/ISPDn/ispdn1.docx", "ispdn1.docx");
           break;
         case "2":
-          setDownloadLink("/main/files/ISPDn/ispdn2.docx", "ispdn2.docx");
+          setDownloadLink("/files/ISPDn/ispdn2.docx", "ispdn2.docx");
           break;
         case "3":
-          setDownloadLink("/main/files/ISPDn/ispdn3.docx", "ispdn3.docx");
+          setDownloadLink("/files/ISPDn/ispdn3.docx", "ispdn3.docx");
           break;
         case "4":
-          setDownloadLink("/main/files/ISPDn/ispdn4.docx", "ispdn4.docx");
+          setDownloadLink("/files/ISPDn/ispdn4.docx", "ispdn4.docx");
           break;
       }
     } else if (checkbox_gis && results17) {
       switch (results17) {
         case "1":
-          setDownloadLink("/main/files/GIS/gis1.docx", "gis1.docx");
+          setDownloadLink("/files/GIS/gis1.docx", "gis1.docx");
           break;
         case "2":
-          setDownloadLink("/main/files/GIS/gis2.docx", "gis2.docx");
+          setDownloadLink("/files/GIS/gis2.docx", "gis2.docx");
           break;
         case "3":
-          setDownloadLink("/main/files/GIS/gis3.docx", "gis3.docx");
+          setDownloadLink("/files/GIS/gis3.docx", "gis3.docx");
           break;
       }
     }
@@ -661,19 +661,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
                 "ispdn_gis_11_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
                 "ispdn_gis_12_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
                 "ispdn_gis_13_usil.docx"
               );
               break;
@@ -683,19 +683,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
                 "ispdn_gis_21_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
                 "ispdn_gis_22_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
                 "ispdn_gis_23_usil.docx"
               );
               break;
@@ -705,19 +705,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
                 "ispdn_gis_31_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
                 "ispdn_gis_32_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
                 "ispdn_gis_33_usil.docx"
               );
               break;
@@ -727,19 +727,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
                 "ispdn_gis_41_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
                 "ispdn_gis_42_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
                 "ispdn_gis_43_usil.docx"
               );
               break;
@@ -758,19 +758,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
                 "ispdn_gis_11.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
                 "ispdn_gis_12.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
                 "ispdn_gis_13.docx"
               );
               break;
@@ -780,19 +780,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
                 "ispdn_gis_21.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
                 "ispdn_gis_22.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
                 "ispdn_gis_23.docx"
               );
               break;
@@ -802,19 +802,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
                 "ispdn_gis_31.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
                 "ispdn_gis_32.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
                 "ispdn_gis_33.docx"
               );
               break;
@@ -824,19 +824,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
                 "ispdn_gis_41.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
                 "ispdn_gis_42.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
+                "/files/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
                 "ispdn_gis_43.docx"
               );
               break;
@@ -846,28 +846,28 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (checkbox_skzi && checkbox_ispdn && results21) {
       switch (results21) {
         case "1":
-          setDownloadLink("/main/files/SKZI/ISPDn/ispdn1.docx", "ispdn1.docx");
+          setDownloadLink("/files/SKZI/ISPDn/ispdn1.docx", "ispdn1.docx");
           break;
         case "2":
-          setDownloadLink("/main/files/SKZI/ISPDn/ispdn2.docx", "ispdn2.docx");
+          setDownloadLink("/files/SKZI/ISPDn/ispdn2.docx", "ispdn2.docx");
           break;
         case "3":
-          setDownloadLink("/main/files/SKZI/ISPDn/ispdn3.docx", "ispdn3.docx");
+          setDownloadLink("/files/SKZI/ISPDn/ispdn3.docx", "ispdn3.docx");
           break;
         case "4":
-          setDownloadLink("/main/files/SKZI/ISPDn/ispdn4.docx", "ispdn4.docx");
+          setDownloadLink("/files/SKZI/ISPDn/ispdn4.docx", "ispdn4.docx");
           break;
       }
     } else if (checkbox_skzi && checkbox_gis && results17) {
       switch (results17) {
         case "1":
-          setDownloadLink("/main/files/SKZI/GIS/gis1.docx", "gis1.docx");
+          setDownloadLink("/files/SKZI/GIS/gis1.docx", "gis1.docx");
           break;
         case "2":
-          setDownloadLink("/main/files/SKZI/GIS/gis2.docx", "gis2.docx");
+          setDownloadLink("/files/SKZI/GIS/gis2.docx", "gis2.docx");
           break;
         case "3":
-          setDownloadLink("/main/files/SKZI/GIS/gis3.docx", "gis3.docx");
+          setDownloadLink("/files/SKZI/GIS/gis3.docx", "gis3.docx");
           break;
       }
     }
@@ -886,19 +886,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
                 "ispdn_gis_11_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
                 "ispdn_gis_12_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
                 "ispdn_gis_13_usil.docx"
               );
               break;
@@ -908,19 +908,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
                 "ispdn_gis_21_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
                 "ispdn_gis_22_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
                 "ispdn_gis_23_usil.docx"
               );
               break;
@@ -930,19 +930,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
                 "ispdn_gis_31_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
                 "ispdn_gis_32_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
                 "ispdn_gis_33_usil.docx"
               );
               break;
@@ -952,19 +952,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
                 "ispdn_gis_41_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
                 "ispdn_gis_42_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
                 "ispdn_gis_43_usil.docx"
               );
               break;
@@ -984,19 +984,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
                 "ispdn_gis_11.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
                 "ispdn_gis_12.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
                 "ispdn_gis_13.docx"
               );
               break;
@@ -1006,19 +1006,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
                 "ispdn_gis_21.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
                 "ispdn_gis_22.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
                 "ispdn_gis_23.docx"
               );
               break;
@@ -1028,19 +1028,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
                 "ispdn_gis_31.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
                 "ispdn_gis_32.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
                 "ispdn_gis_33.docx"
               );
               break;
@@ -1050,19 +1050,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
                 "ispdn_gis_41.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
                 "ispdn_gis_42.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
+                "/files/PP1119/SKZI/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
                 "ispdn_gis_43.docx"
               );
               break;
@@ -1074,25 +1074,25 @@ document.addEventListener("DOMContentLoaded", function () {
       switch (results21) {
         case "1":
           setDownloadLink(
-            "/main/files/PP1119/SKZI/ISPDn/ispdn1.docx",
+            "/files/PP1119/SKZI/ISPDn/ispdn1.docx",
             "ispdn1.docx"
           );
           break;
         case "2":
           setDownloadLink(
-            "/main/files/PP1119/SKZI/ISPDn/ispdn2.docx",
+            "/files/PP1119/SKZI/ISPDn/ispdn2.docx",
             "ispdn2.docx"
           );
           break;
         case "3":
           setDownloadLink(
-            "/main/files/PP1119/SKZI/ISPDn/ispdn3.docx",
+            "/files/PP1119/SKZI/ISPDn/ispdn3.docx",
             "ispdn3.docx"
           );
           break;
         case "4":
           setDownloadLink(
-            "/main/files/PP1119/SKZI/ISPDn/ispdn4.docx",
+            "/files/PP1119/SKZI/ISPDn/ispdn4.docx",
             "ispdn4.docx"
           );
           break;
@@ -1112,19 +1112,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 1/ispdn_gis_11.docx",
                 "ispdn_gis_11.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 1/ispdn_gis_12.docx",
                 "ispdn_gis_12.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 1/ispdn_gis_13.docx",
                 "ispdn_gis_13.docx"
               );
               break;
@@ -1134,19 +1134,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 2/ispdn_gis_21.docx",
                 "ispdn_gis_21.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 2/ispdn_gis_22.docx",
                 "ispdn_gis_22.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 2/ispdn_gis_23.docx",
                 "ispdn_gis_23.docx"
               );
               break;
@@ -1156,19 +1156,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 3/ispdn_gis_31.docx",
                 "ispdn_gis_31.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 3/ispdn_gis_32.docx",
                 "ispdn_gis_32.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 3/ispdn_gis_33.docx",
                 "ispdn_gis_33.docx"
               );
               break;
@@ -1178,19 +1178,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 4/ispdn_gis_41.docx",
                 "ispdn_gis_41.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 4/ispdn_gis_42.docx",
                 "ispdn_gis_42.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 4/ispdn_gis_43.docx",
                 "ispdn_gis_43.docx"
               );
               break;
@@ -1211,19 +1211,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
                 "ispdn_gis_11_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
                 "ispdn_gis_12_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
                 "ispdn_gis_13_usil.docx"
               );
               break;
@@ -1233,19 +1233,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
                 "ispdn_gis_21_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
                 "ispdn_gis_22_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
                 "ispdn_gis_23_usil.docx"
               );
               break;
@@ -1255,19 +1255,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
                 "ispdn_gis_31_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
                 "ispdn_gis_32_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
                 "ispdn_gis_33_usil.docx"
               );
               break;
@@ -1277,19 +1277,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
                 "ispdn_gis_41_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
                 "ispdn_gis_42_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/PP1119/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
+                "/files/PP1119/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
                 "ispdn_gis_43_usil.docx"
               );
               break;
@@ -1300,25 +1300,25 @@ document.addEventListener("DOMContentLoaded", function () {
       switch (results21) {
         case "1":
           setDownloadLink(
-            "/main/files/PP1119/ISPDn/ispdn1.docx",
+            "/files/PP1119/ISPDn/ispdn1.docx",
             "ispdn1.docx"
           );
           break;
         case "2":
           setDownloadLink(
-            "/main/files/PP1119/ISPDn/ispdn2.docx",
+            "/files/PP1119/ISPDn/ispdn2.docx",
             "ispdn2.docx"
           );
           break;
         case "3":
           setDownloadLink(
-            "/main/files/PP1119/ISPDn/ispdn3.docx",
+            "/files/PP1119/ISPDn/ispdn3.docx",
             "ispdn3.docx"
           );
           break;
         case "4":
           setDownloadLink(
-            "/main/files/PP1119/ISPDn/ispdn4.docx",
+            "/files/PP1119/ISPDn/ispdn4.docx",
             "ispdn4.docx"
           );
           break;
@@ -1328,13 +1328,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (checkbox_asu && results489) {
       switch (results489) {
         case "1":
-          setDownloadLink("/main/files/ASU/asu1.docx", "asu1.docx");
+          setDownloadLink("/files/ASU/asu1.docx", "asu1.docx");
           break;
         case "2":
-          setDownloadLink("/main/files/ASU/asu2.docx", "asu2.docx");
+          setDownloadLink("/files/ASU/asu2.docx", "asu2.docx");
           break;
         case "3":
-          setDownloadLink("/main/files/ASU/asu3.docx", "asu3.docx");
+          setDownloadLink("/files/ASU/asu3.docx", "asu3.docx");
           break;
       }
     }
@@ -1346,19 +1346,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results_kii) {
             case "1":
               setDownloadLink(
-                "/main/files/GIS+KII/gis1/gis_kii_11.docx",
+                "/files/GIS+KII/gis1/gis_kii_11.docx",
                 "gis_kii_11.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/GIS+KII/gis1/gis_kii_12.docx",
+                "/files/GIS+KII/gis1/gis_kii_12.docx",
                 "gis_kii_12.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/GIS+KII/gis1/gis_kii_13.docx",
+                "/files/GIS+KII/gis1/gis_kii_13.docx",
                 "gis_kii_13.docx"
               );
               break;
@@ -1368,19 +1368,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results_kii) {
             case "1":
               setDownloadLink(
-                "/main/files/GIS+KII/gis2/gis_kii_21.docx",
+                "/files/GIS+KII/gis2/gis_kii_21.docx",
                 "gis_kii_21.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/GIS+KII/gis2/gis_kii_22.docx",
+                "/files/GIS+KII/gis2/gis_kii_22.docx",
                 "gis_kii_22.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/GIS+KII/gis2/gis_kii_23.docx",
+                "/files/GIS+KII/gis2/gis_kii_23.docx",
                 "gis_kii_23.docx"
               );
               break;
@@ -1390,19 +1390,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results_kii) {
             case "1":
               setDownloadLink(
-                "/main/files/GIS+KII/gis3/gis_kii_31.docx",
+                "/files/GIS+KII/gis3/gis_kii_31.docx",
                 "gis_kii_31.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "/main/files/GIS+KII/gis3/gis_kii_32.docx",
+                "/files/GIS+KII/gis3/gis_kii_32.docx",
                 "gis_kii_32.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "/main/files/GIS+KII/gis3/gis_kii_33.docx",
+                "/files/GIS+KII/gis3/gis_kii_33.docx",
                 "gis_kii_33.docx"
               );
               break;
@@ -1470,13 +1470,13 @@ function changeURL_kii() {
   // ФАЙЛЫ, ЛОГИКА
   switch (results187) {
     case 1:
-      setDownloadLink(saveLinkKii, "/main/files/KII/kii1.docx", "kii1.docx");
+      setDownloadLink(saveLinkKii, "/files/KII/kii1.docx", "kii1.docx");
       break;
     case 2:
-      setDownloadLink(saveLinkKii, "/main/files/KII/kii2.docx", "kii2.docx");
+      setDownloadLink(saveLinkKii, "/files/KII/kii2.docx", "kii2.docx");
       break;
     case 3:
-      setDownloadLink(saveLinkKii, "/main/files/KII/kii3.docx", "kii3.docx");
+      setDownloadLink(saveLinkKii, "/files/KII/kii3.docx", "kii3.docx");
       break;
   }
 }
