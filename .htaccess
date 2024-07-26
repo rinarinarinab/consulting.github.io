@@ -1,1 +1,3 @@
 AddType application/actet-stream .docx
+
+AddType application/vnd.openxmlformats-officedocument.wordprocessingml.document .docx
