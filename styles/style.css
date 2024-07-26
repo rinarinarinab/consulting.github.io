@@ -174,10 +174,6 @@ header {
 
 @media (max-width: 480px) {
   .menu-section {
-    position: fixed;
-    top: 0;
-    left: 0;
-
     padding: 8px;
   }
 
@@ -241,7 +237,7 @@ header {
   text-decoration: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .module {
     padding: 15px;
     width: 95%;
