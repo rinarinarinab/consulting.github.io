@@ -241,7 +241,7 @@ header {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .module {
     padding: 15px;
     width: 95%;
