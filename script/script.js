@@ -446,6 +446,7 @@ document.addEventListener("DOMContentLoaded", function () {
               setDownloadLink(
                 "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_1/ISPDn_GISusil/ispdn_gis_11_usil.docx",
                 "ispdn_gis_11_usil.docx"
+              );
             case "2":
               setDownloadLink(
                 "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_1/ISPDn_GISusil/ispdn_gis_12_usil.docx",
