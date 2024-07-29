@@ -319,7 +319,7 @@ header {
 .law_fz_86 {
   height: 35px;
   width: 140px;
-  position: relative;
+  position: fixed;
   display: inline-block;
   text-align: center;
   border-radius: 5px;
