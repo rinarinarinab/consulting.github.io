@@ -438,24 +438,23 @@ document.addEventListener("DOMContentLoaded", function () {
       results21 &&
       results17
     ) {
+
       switch (results21) {
         case "1":
           switch (results17) {
             case "1":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_11_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_1/ISPDn_GISusil/ispdn_gis_11_usil.docx",
                 "ispdn_gis_11_usil.docx"
-              );
-              break;
             case "2":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_12_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_1/ISPDn_GISusil/ispdn_gis_12_usil.docx",
                 "ispdn_gis_12_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 1/ISPDn GIS usil/ispdn_gis_13_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_1/ISPDn_GISusil/ispdn_gis_13_usil.docx",
                 "ispdn_gis_13_usil.docx"
               );
               break;
@@ -465,19 +464,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_21_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_2/ISPDn_GISusil/ispdn_gis_21_usil.docx",
                 "ispdn_gis_21_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_22_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_2/ISPDn_GISusil/ispdn_gis_22_usil.docx",
                 "ispdn_gis_22_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 2/ISPDn GIS usil/ispdn_gis_23_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_2/ISPDn_GISusil/ispdn_gis_23_usil.docx",
                 "ispdn_gis_23_usil.docx"
               );
               break;
@@ -487,19 +486,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_31_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_3/ISPDn_GISusil/ispdn_gis_31_usil.docx",
                 "ispdn_gis_31_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_32_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_3/ISPDn_GISusil/ispdn_gis_32_usil.docx",
                 "ispdn_gis_32_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 3/ISPDn GIS usil/ispdn_gis_33_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_3/ISPDn_GISusil/ispdn_gis_33_usil.docx",
                 "ispdn_gis_33_usil.docx"
               );
               break;
@@ -509,19 +508,19 @@ document.addEventListener("DOMContentLoaded", function () {
           switch (results17) {
             case "1":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_41_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_4/ISPDn_GISusil/ispdn_gis_41_usil.docx",
                 "ispdn_gis_41_usil.docx"
               );
               break;
             case "2":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_42_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_4/ISPDn_GISusil/ispdn_gis_42_usil.docx",
                 "ispdn_gis_42_usil.docx"
               );
               break;
             case "3":
               setDownloadLink(
-                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDn 4/ISPDn GIS usil/ispdn_gis_43_usil.docx",
+                "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn+GIS/ISPDN_4/ISPDn_GISusil/ispdn_gis_43_usil.docx",
                 "ispdn_gis_43_usil.docx"
               );
               break;
