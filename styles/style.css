@@ -175,7 +175,13 @@ header {
 
 @media (max-width: 480px) {
   .menu-section {
-    padding: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #59ab87;
+    padding: 15px;
+    z-index: 1000;
   }
 
   nav ul a {
