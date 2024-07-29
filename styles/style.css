@@ -152,7 +152,13 @@ header {
   }
 
   nav ul a {
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: #fafafa;
     font-size: 1.1em;
+    line-height: 1.5;
+    width: 100%;
+    display: block;
   }
 
   .content {
@@ -185,7 +191,13 @@ header {
   }
 
   nav ul a {
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: #fafafa;
     font-size: 1.2em;
+    line-height: 1.5;
+    width: 100%;
+    display: block;
   }
 
   .content {
