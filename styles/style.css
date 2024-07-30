@@ -410,10 +410,19 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  background-color: #222a30;
-  color: #ffffff;
+  padding: 1.5rem;
+  background: #ffdbaa;
+  color: #58636b;
   text-align: center;
+  width: 100%; 
+  position: relative; 
+  bottom: 0;
+  left: 0;
+  
+}
+
+.footer:hover {
+  color: #232527;
 }
 
 /* Адаптивные стили */
