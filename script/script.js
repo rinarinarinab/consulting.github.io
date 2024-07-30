@@ -1588,3 +1588,22 @@ window.addEventListener("storage", function (event) {
     displayStoredData();
   }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const footer = document.querySelector('.footer');
+  let lastScrollTop = 0;
+
+  window.addEventListener('scroll', function() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Если пользователь прокручивает вниз
+    if (scrollTop > lastScrollTop) {
+      footer.classList.add('show');
+    } else {
+      footer.classList.remove('show');
+    }
+    
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Для мобильных браузеров
+  });
+});

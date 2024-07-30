@@ -698,7 +698,7 @@ option {
 .footer {
   z-index: 1000;
   position: fixed;
-  bottom: 0;
+  bottom: -100px;
   left: 0;
   width: 100%;
   text-align: center;
@@ -712,6 +712,7 @@ option {
   gap: 0.5rem;
   box-sizing: border-box;
   height: auto;
+  transition: bottom 0.3s ease-in-out; 
 }
 
 .footer:hover {
