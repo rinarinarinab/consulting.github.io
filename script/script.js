@@ -1591,7 +1591,7 @@ window.addEventListener("storage", function (event) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  const footer = document.querySelector('.footer');
+  const footer = document.querySelectorAll('.footer');
   let lastScrollTop = 0;
 
   window.addEventListener('scroll', function() {
