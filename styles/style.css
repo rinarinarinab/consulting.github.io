@@ -1,4 +1,4 @@
-/* Общие стили для всех элементов */
+/* all */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Основные стили для body */
 body {
   display: flex;
   flex-direction: column;
@@ -19,14 +18,12 @@ body {
   height: 100%;
 }
 
-/* Устанавливаем высоту для html и body */
 html,
 body {
   height: 100%;
   margin: 0;
 }
 
-/* Обертка, которая охватывает все содержимое */
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -35,7 +32,6 @@ body {
   align-items: center;
 }
 
-/* Секция меню, фиксированная в верхней части страницы */
 .menu-section {
   position: fixed;
   top: 0;
@@ -46,7 +42,6 @@ body {
   z-index: 1000;
 }
 
-/* Переключатель меню */
 .menu-toggle {
   width: 30px;
   height: 30px;
@@ -55,7 +50,6 @@ body {
   display: inline-block;
 }
 
-/* Стили для линий переключателя меню */
 .menu-toggle.on .one {
   transform: rotate(45deg) translate(7px, 7px);
 }
@@ -79,7 +73,6 @@ body {
   transition-duration: 0.5s;
 }
 
-/* Навигационные ссылки */
 nav ul {
   margin: 0;
   padding: 0;
@@ -111,7 +104,7 @@ nav ul a:hover {
   background-color: #578470;
 }
 
-/* Основные стили для контента */
+/* модуль */
 .content {
   flex: 1;
   padding: 20px;
@@ -119,7 +112,6 @@ nav ul a:hover {
   width: 95%;
 }
 
-/* Контейнер для модулей */
 .container {
   max-width: 1200px;
   margin: 20px;
@@ -129,7 +121,6 @@ nav ul a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Стили для заголовков и текста в header */
 header {
   text-align: center;
   color: #2e3336;
@@ -145,21 +136,18 @@ header p {
   margin: 5px 0;
 }
 
-/* Основные стили для header */
 header {
   color: #222a30;
   padding: 20px 0;
   text-align: center;
 }
 
-/* Стили для модуля информации */
 .module-info {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Основные стили для модуля */
 .module {
   background-color: #ffffff;
   border: 1px solid #ddd;
@@ -192,7 +180,7 @@ header {
   text-decoration: none;
 }
 
-/* Нормативно-правовые акты */
+/* НПА */
 .documents {
   margin-top: 20px;
 }
@@ -242,7 +230,6 @@ header {
   align-items: start;
 }
 
-/* Стили для кнопок нормативно-правовых актов */
 .law_fz_149,
 .law_fz_187,
 .law_fz_152,
@@ -263,7 +250,6 @@ header {
   box-shadow: 0px 5px 0px 0px;
 }
 
-/* Индивидуальные стили для различных нормативных актов */
 .law_fz_149 {
   background-color: #a2f0b3;
   box-shadow: 0px 5px 0px 0px #a2f0b3;
@@ -340,248 +326,447 @@ header {
 .law_fz_86.active {
   color: #fdfdfd;
   border-color: #61696e;
-  background-color: #6f5f5a;
+  background-color: #b67359;
   box-shadow: 0px -1px 0px 0px #ffffff;
   transform: translate(0px, 5px);
 }
 
-/* Стили для форм ввода и вывода */
+/* Категорирование ИС */
+.input_output_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.content h2 {
+  margin-top: 10px;
+}
+
 .input_info,
 .output_info {
-  width: 80%;
+  width: 50%;
+}
+
+.input_info_kii {
+  width: 100%;
+}
+.output_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
 }
 
-/* Стили для кнопок */
+.output_info .text_info {
+  margin: 0;
+  font-size: 1em;
+}
+
+select {
+  width: 50%;
+  padding: 2px;
+  font-size: 1em;
+  margin: 3px;
+}
+
+details {
+  padding: 2px;
+  font-size: 1.1em;
+}
+
+summary {
+  font-weight: bold;
+  background: rgb(209, 231, 255);
+}
+
 .save_base {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
 .save_base button {
-  width: auto;
-  margin: 5px;
   padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  font-size: 1em;
   cursor: pointer;
 }
 
-.kii {
+fieldset {
+  background: rgb(245, 245, 245);
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+fieldset .fieldset_dopy {
   display: flex;
   flex-direction: row;
+  position: relative;
+}
+
+fieldset h3 {
+  margin-top: 10px;
+}
+
+fieldset .fieldset_dopy label {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-right: 15px;
+}
+
+fieldset .fieldset_dopy .checkbox {
+  margin-left: 15px;
+  margin-right: 1px;
+}
+
+legend {
+  font-weight: bold;
+  background: #8ec1e9;
+  color: #ffffff;
+  padding: 5px;
+  border: 1px solid #333;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+option {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.output_info {
+  width: 45%;
+  display: block;
+  flex-wrap: row;
   justify-content: center;
-  margin-top: 20px;
+  text-align: center;
+}
+
+.output_info .text {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center;
+  background: rgb(245, 245, 245);
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.results {
+  color: #ff0000;
+}
+
+/* КИИ */
+.kii {
+  display: flex;
+  flex-wrap: row;
+  justify-content: baseline;
+  padding: auto;
 }
 
 .kii button {
-  width: auto;
-  margin: 5px;
-  padding: 10px 20px;
-  border: none;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  text-align: center;
   border-radius: 5px;
-  cursor: pointer;
+  padding: 15px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 15px;
+  border-color: #a0a6aa;
+  background-color: #72a0c3;
+  color: white;
+}
+
+.kii button:active {
+  color: #fdfdfd;
+  border-color: #ffffff;
+  background-color: #68869e;
+  box-shadow: 0px -1px 0px 0px #ffffff;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.kii button:hover {
+  background-color: #68869e;
+}
+
+.kii a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.kii a:visited {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.kii a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Кнопки */
+.save_info {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.save_info button {
+  font-weight: bold;
+  height: 50px;
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 15px;
+  border-color: #a0a6aa;
+  background-color: #72a0c3;
+  color: white;
+}
+
+#undoButton {
+  font-weight: bold;
+  height: 50px;
+  width: 400px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 9px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 15px;
+  border-color: #a0a6aa;
+  background-color: #72a0c3;
+  color: white;
+}
+
+#receivedData_kii {
+  font-weight: bold;
+  height: 50px;
+  width: 400px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 9px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 15px;
+  border-color: #a0a6aa;
+  background-color: #72a0c3;
+  color: white;
+}
+
+#resetButton {
+  font-weight: bold;
+  height: 50px;
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 15px;
+  border-color: #a0a6aa;
+  background-color: #72a0c3;
+  color: white;
+}
+
+.kii_button {
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.save_info button:active {
+  color: #fdfdfd;
+  border-color: #ffffff;
+  background-color: #68869e;
+  box-shadow: 0px -1px 0px 0px #ffffff;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.save_info button:hover {
+  background-color: #68869e;
+}
+
+.save_info a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.save_info a:visited {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.save_info a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.save_info_text {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 15px;
+  font-weight: lighter;
+  font-size: 1em;
+  text-align: center;
+}
+
+.save_info_text label {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 2px;
+  font-weight: lighter;
+  font-size: 1em;
+  text-align: center;
+}
+
+.save_info_text .checkbox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 15px;
 }
 
 /* Диалоговые окна */
 .dialogs {
   position: absolute;
-  width: 70%;
-  max-width: 600px;
-  background: #ffffff;
-  border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-  display: none; /* По умолчанию скрыты */
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 50%;
+  overflow: hidden;
+  font-size: 1.5em;
 }
 
 .close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.7em;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
   cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: #215ba3;
+  border: 1px solid #222a30;
+  color: #ffffff;
 }
 
-/* Стили для подвала */
+/* Медиазапросы для адаптации под мобильные устройства */
+@media (max-width: 768px) {
+  .dialogs {
+    width: 70%;
+    padding: 15px;
+    margin: 15px;
+    font-size: 1.3em;
+  }
+
+  .close {
+    font-size: 0.8em;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dialogs {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+  }
+
+  .close {
+    font-size: 1em;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+  }
+
+  .dialogs a {
+    font-size: 1em;
+  }
+}
+
+/* футер */
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  text-align: center;
   padding: 1.5rem;
   background: #ffdbaa;
   color: #58636b;
-  text-align: center;
-  width: 100%; 
-  position: relative; 
-  bottom: 0;
-  left: 0;
-  
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+  box-sizing: border-box;
 }
 
 .footer:hover {
   color: #232527;
 }
 
-/* Адаптивные стили */
-
-/* Экран до 768px */
+/* Медиазапросы для адаптации под мобильные устройства */
 @media (max-width: 768px) {
-  .menu-section {
-    padding: 8px;
-  }
-
-  .menu-toggle {
-    width: 25px;
-    height: 25px;
-  }
-
-  nav ul a {
-    font-size: 1.2em;
-  }
-
-  .content {
-    padding: 15px;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  header p {
-    font-size: 1.2em;
-  }
-
-  .container {
-    margin: 10px;
-    padding: 10px;
-  }
-
-  .module {
-    padding: 15px;
-    width: 95%;
-  }
-
-  .category {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .regulator {
-    flex-direction: column;
-    margin: 10px;
-  }
-
-  .items.fz {
-    flex-direction: column;
-  }
-
-  .law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
-    width: 100%;
-    margin: 5px 0;
-  }
-
-  .input_info, .output_info {
-    width: 100%;
-    margin: 0;
-  }
-
-  .save_base {
-    flex-direction: column;
-  }
-
-  .save_base button {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .kii button {
-    width: 100%;
-  }
-
-  .dialogs {
-    width: 90%;
-  }
-
   .footer {
     flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .footer > * {
+    margin: 0.5rem 0;
   }
 }
 
-/* Экран до 480px */
 @media (max-width: 480px) {
-  .menu-section {
-    padding: 6px;
-  }
-
-  .menu-toggle {
-    width: 20px;
-    height: 20px;
-  }
-
-  nav ul a {
-    font-size: 1em;
-  }
-
-  .content {
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 1.6em;
-  }
-
-  header p {
-    font-size: 1em;
-  }
-
-  .container {
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .module {
-    padding: 10px;
-    width: 100%;
-  }
-
-  .category {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .regulator {
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-  }
-
-  .items.fz {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
-    width: 100%;
-    margin: 5px 0;
-  }
-
-  .save_base button {
-    width: 100%;
-  }
-
-  .dialogs {
-    width: 100%;
-    font-size: 1.1em;
-  }
-
-  .close {
-    font-size: 0.9em;
-  }
-
   .footer {
-    font-size: 0.8em;
+    padding: 0.75rem; 
+    font-size: 0.9em;
   }
 }
