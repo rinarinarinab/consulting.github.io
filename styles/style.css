@@ -710,6 +710,7 @@ option {
   align-items: center;
   gap: 0.5rem;
   box-sizing: border-box;
+  height: auto;
 }
 
 .footer:hover {
