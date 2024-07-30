@@ -697,7 +697,7 @@ option {
 /* футер */
 .footer {
   z-index: 1000;
-  position: relative;
+  position:absolute;
   width: 100%;
   text-align: center;
   padding: 1.5rem;
