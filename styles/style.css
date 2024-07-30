@@ -103,6 +103,52 @@ nav ul a:hover {
   background-color: #578470;
 }
 
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+  body {
+    justify-content: flex-start;
+  }
+
+  .menu-section {
+    padding: 10px;
+  }
+
+  .menu-toggle {
+    width: 25px;
+    height: 25px;
+  }
+
+  .one,
+  .two,
+  .three {
+    height: 4px;
+    margin: 5px auto;
+  }
+
+  nav ul a {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-toggle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .one,
+  .two,
+  .three {
+    height: 3px;
+    margin: 4px auto;
+  }
+
+  nav ul a {
+    font-size: 1em;
+  }
+}
+
+
 /* модуль */
 .content {
   flex: 1;
@@ -257,7 +303,7 @@ header {
     margin-top: 60px;
     width: 95%;
   }
-  
+
   h1 {
     text-align: center;
     font-size: 1.8em;
