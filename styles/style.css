@@ -21,6 +21,7 @@ body {
 html,
 body {
   height: 100%;
+  margin: 0;
 }
 
 .wrapper {
@@ -141,60 +142,6 @@ header {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .menu-section {
-    padding: 8px;
-  }
-
-  nav ul a {
-    font-size: 1.2em;
-  }
-
-  .content {
-    padding: 15px;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  header p {
-    font-size: 1.2em;
-  }
-
-  .container {
-    margin: 10px;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .menu-section {
-    padding: 8px;
-  }
-
-  nav ul a {
-    font-size: 1em;
-  }
-
-  .content {
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 1.6em;
-  }
-
-  header p {
-    font-size: 0.9em;
-  }
-
-  .container {
-    margin: 5px;
-    padding: 5px;
-  }
-}
-
 .module-info {
   display: flex;
   flex-direction: column;
@@ -231,36 +178,6 @@ header {
 .module a:visited {
   color: #222a30;
   text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  .module {
-    padding: 15px;
-    width: 95%;
-  }
-
-  .module h2 {
-    font-size: 1.3em;
-  }
-
-  .module p {
-    font-size: 1.1em;
-  }
-}
-
-@media (max-width: 480px) {
-  .module {
-    padding: 10px;
-    width: 100%;
-  }
-
-  .module h2 {
-    font-size: 1.2em;
-  }
-
-  .module p {
-    font-size: 1em;
-  }
 }
 
 /* НПА */
@@ -414,115 +331,6 @@ header {
   transform: translate(0px, 5px);
 }
 
-/* Медиазапросы для адаптации под мобильные устройства */
-@media (max-width: 768px) {
-  .category {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-  }
-
-  .regulator {
-    flex-direction: row;
-    margin: 10px;
-    flex: 1; 
-  }
-
-  .items.fz {
-    left: 0;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .law_fz_149,
-  .law_fz_187,
-  .law_fz_152,
-  .law_fz_161,
-  .law_fz_86 {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .law.order {
-    padding: 10px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .documents {
-    margin-top: 10px;
-  }
-
-  .category {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .regulator {
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-  }
-
-  .items {
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .items.fz {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .law_fz_149,
-  .law_fz_187,
-  .law_fz_152,
-  .law_fz_161,
-  .law_fz_86 {
-    width: 100%;
-    margin: 10px;
-    font-size: 0.8em;
-    text-align: center;
-  }
-
-  .law_fz_149 span,
-  .law_fz_187 span,
-  .law_fz_152 span,
-  .law_fz_161 span,
-  .law_fz_86 span {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .items button {
-    height: 35px;
-    text-align: center;
-  }
-
-  .law {
-    padding-left: 10px;
-  }
-
-  .category h2,
-  .regulator h3 {
-    font-size: 0.8em;
-  }
-}
-
 /* Категорирование ИС */
 .input_output_info {
   display: flex;
@@ -664,86 +472,6 @@ option {
   color: #ff0000;
 }
 
-/* Медиазапросы для адаптации под мобильные устройства */
-@media (max-width: 768px) {
-  .input_info,
-  .output_info {
-    width: 100%;
-    margin: 0;
-  }
-
-  .output_info .text {
-    font-size: 1.4em;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  select {
-    width: 100%;
-    font-size: 0.9em;
-    padding: 5px;
-  }
-
-  .save_base {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-  }
-
-  .save_base button {
-    padding: 12px; 
-    font-size: 0.9em;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  fieldset .fieldset_dopy label {
-    align-items: center;
-    margin-right: 10px;
-    font-size: 0.9em;
-  }
-}
-
-@media (max-width: 480px) {
-  .input_info,
-  .output_info {
-    width: 100%;
-  }
-
-  .output_info .text {
-    font-size: 1.2em;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  select {
-    width: 100%;
-    font-size: 0.8em;
-  }
-
-  details {
-    font-size: 1em;
-  }
-
-  .save_base {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-  }
-
-  .save_base button {
-    width: 100%;
-    margin-top: 10px;
-    font-size: 0.9em;
-    padding: 12px;
-  }
-
-  fieldset .fieldset_dopy label {
-    font-size: 0.9em;
-    margin-right: 5px;
-  }
-}
-
 /* КИИ */
 .kii {
   display: flex;
@@ -794,35 +522,6 @@ option {
 .kii a:hover {
   color: #ffffff;
   text-decoration: none;
-}
-
-/* Медиазапросы для адаптации под мобильные устройства */
-@media (max-width: 768px) {
-  .kii {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .kii button {
-    width: 80%;
-    padding: 10px;
-    font-size: 1em;
-    margin: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .kii {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .kii button {
-    width: 90%;
-    padding: 8px;
-    font-size: 0.9em;
-    margin: 8px;
-  }
 }
 
 /* Кнопки */
@@ -965,54 +664,6 @@ option {
   margin-left: 15px;
 }
 
-/* Медиазапросы для адаптации под мобильные устройства */
-@media (max-width: 768px) {
-  .save_info button {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    margin: 10px;
-  }
-
-  #undoButton,
-  #receivedData_kii,
-  #resetButton {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    margin: 10px;
-  }
-
-  .save_info_text {
-    font-size: 0.9em;
-  }
-}
-
-@media (max-width: 480px) {
-  .save_info {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .save_info button,
-  #undoButton,
-  #receivedData_kii,
-  #resetButton {
-    width: 90%;
-    padding: 8px;
-    font-size: 0.9em;
-    margin: 8px;
-  }
-
-  .save_info_text {
-    font-size: 0.8em;
-  }
-
-  .save_info_text label {
-    font-size: 0.8em;
-  }
-}
-
 /* Диалоговые окна */
 .dialogs {
   position: absolute;
@@ -1043,43 +694,6 @@ option {
   color: #ffffff;
 }
 
-/* Медиазапросы для адаптации под мобильные устройства */
-@media (max-width: 768px) {
-  .dialogs {
-    width: 70%;
-    padding: 15px;
-    margin: 15px;
-    font-size: 1.3em;
-  }
-
-  .close {
-    font-size: 0.8em;
-    height: 40px;
-    width: 130px;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .dialogs {
-    width: 90%;
-    padding: 10px;
-    margin: 10px;
-    font-size: 1.2em;
-  }
-
-  .close {
-    font-size: 1em;
-    height: 40px;
-    width: 130px;
-    padding: 10px;
-  }
-
-  .dialogs a {
-    font-size: 1em;
-  }
-}
-
 /* футер */
 .footer {
   width: 100%;
@@ -1102,6 +716,160 @@ option {
 
 /* Медиазапросы для адаптации под мобильные устройства */
 @media (max-width: 768px) {
+  .menu-section {
+    padding: 8px;
+  }
+
+  nav ul a {
+    font-size: 1.2em;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1.2em;
+  }
+
+  .container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .module {
+    padding: 15px;
+    width: 95%;
+  }
+
+  .module h2 {
+    font-size: 1.3em;
+  }
+
+  .module p {
+    font-size: 1.1em;
+  }
+
+  .category {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .regulator {
+    flex-direction: row;
+    margin: 10px;
+    flex: 1;
+  }
+
+  .items.fz {
+    left: 0;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .law_fz_149,
+  .law_fz_187,
+  .law_fz_152,
+  .law_fz_161,
+  .law_fz_86 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .input_info,
+  .output_info {
+    width: 100%;
+    margin: 0;
+  }
+
+  .output_info .text {
+    font-size: 1.4em;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  select {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 5px;
+  }
+
+  .save_base {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .save_base button {
+    padding: 12px;
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  fieldset .fieldset_dopy label {
+    align-items: center;
+    margin-right: 10px;
+    font-size: 0.9em;
+  }
+
+  .kii {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .kii button {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+  }
+
+  .save_info button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+  }
+
+  #undoButton,
+  #receivedData_kii,
+  #resetButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+  }
+
+  .save_info_text {
+    font-size: 0.9em;
+  }
+
+  .dialogs {
+    width: 70%;
+    padding: 15px;
+    margin: 15px;
+    font-size: 1.3em;
+  }
+
+  .close {
+    font-size: 0.8em;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+  }
+
   .footer {
     flex-direction: column;
     text-align: center;
@@ -1114,8 +882,135 @@ option {
 }
 
 @media (max-width: 480px) {
+  .menu-section {
+    padding: 8px;
+  }
+
+  nav ul a {
+    font-size: 1em;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  header p {
+    font-size: 0.9em;
+  }
+
+  .container {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .module {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .module h2 {
+    font-size: 1.2em;
+  }
+
+  .module p {
+    font-size: 1em;
+  }
+
+  .documents {
+    margin-top: 10px;
+  }
+
+  .category {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .regulator {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+
+  .items {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .items.fz {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .law_fz_149,
+  .law_fz_187,
+  .law_fz_152,
+  .law_fz_161,
+  .law_fz_86 {
+    width: 100%;
+    margin: 10px;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .law_fz_149 span,
+  .law_fz_187 span,
+  .law_fz_152 span,
+  .law_fz_161 span,
+  .law_fz_86 span {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .items button {
+    height: 35px;
+    text-align: center;
+  }
+
+  .save_info button,
+  #undoButton,
+  #receivedData_kii,
+  #resetButton {
+    width: 90%;
+    padding: 8px;
+    font-size: 0.9em;
+    margin: 8px;
+  }
+
+  .save_info_text {
+    font-size: 0.8em;
+  }
+
+  .save_info_text label {
+    font-size: 0.8em;
+  }
+
+  .dialogs {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+  }
+
+  .close {
+    font-size: 1em;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+  }
+
   .footer {
-    padding: 0.75rem; 
+    padding: 0.75rem;
     font-size: 0.9em;
   }
 }
