@@ -214,7 +214,7 @@ header {
     overflow-y: scroll;
     height: 100%;
   }
-  
+
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -237,7 +237,7 @@ header {
     transition-duration: 0.5s;
     text-decoration: none;
     color: #fafafa;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1em;
     width: 100%;
     display: block;
