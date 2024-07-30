@@ -711,7 +711,6 @@ option {
   gap: 0.5rem;
   box-sizing: border-box;
   height: auto;
-  transition: bottom 0.3s ease-in-out; 
 }
 
 .footer:hover {
