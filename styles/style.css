@@ -722,6 +722,7 @@ option {
   }
 
   .content {
+    margin-top: 60px;
     padding: 15px;
   }
 
@@ -888,6 +889,7 @@ option {
   }
 
   .content {
+    margin-top: 60px;
     padding: 10px;
   }
 
