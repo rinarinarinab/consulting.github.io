@@ -141,6 +141,18 @@ header {
 }
 
 @media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: #fbfbfb;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+  }
+
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -191,6 +203,18 @@ header {
 }
 
 @media (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: #fbfbfb;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+  }
+  
   .wrapper {
     display: flex;
     flex-direction: column;
