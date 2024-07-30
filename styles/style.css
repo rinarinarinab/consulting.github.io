@@ -174,7 +174,7 @@ header {
   }
 
   nav ul a {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .content {
@@ -182,11 +182,11 @@ header {
   }
 
   h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   header p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .container {
@@ -259,7 +259,7 @@ header {
   }
 
   .module p {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 
@@ -419,11 +419,13 @@ header {
   .category {
     flex-direction: row;
     align-items: center;
+    justify-content: center; 
   }
 
   .regulator {
     flex-direction: row;
     margin: 10px;
+    flex: 1; 
   }
 
   .items.fz {
@@ -454,15 +456,17 @@ header {
 }
 
 @media (max-width: 480px) {
+  .documents {
+    margin-top: 10px;
+  }
+
   .category {
-    display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
   }
 
   .regulator {
-    display: flex;
     flex-direction: column;
     margin: auto;
     text-align: center;
@@ -482,17 +486,6 @@ header {
     align-items: center;
   }
 
-  .law_fz_149 span,
-  .law_fz_187 span,
-  .law_fz_152 span,
-  .law_fz_161 span,
-  .law_fz_86 span {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    flex-direction: column;
-  }
-
   .law_fz_149,
   .law_fz_187,
   .law_fz_152,
@@ -502,6 +495,17 @@ header {
     margin: 10px;
     font-size: 0.8em;
     text-align: center;
+  }
+
+  .law_fz_149 span,
+  .law_fz_187 span,
+  .law_fz_152 span,
+  .law_fz_161 span,
+  .law_fz_86 span {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
   }
 
   .items button {
@@ -665,23 +669,30 @@ option {
   .input_info,
   .output_info {
     width: 100%;
+    margin: 0;
   }
 
   .output_info .text {
     font-size: 1.4em;
+    padding: 10px;
+    margin: 10px;
   }
 
   select {
     width: 100%;
     font-size: 0.9em;
+    padding: 5px;
   }
 
   .save_base {
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
   }
 
   .save_base button {
+    padding: 12px; 
+    font-size: 0.9em;
     width: 100%;
     margin-top: 10px;
   }
@@ -717,12 +728,14 @@ option {
   .save_base {
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
   }
 
   .save_base button {
     width: 100%;
     margin-top: 10px;
     font-size: 0.9em;
+    padding: 12px;
   }
 
   fieldset .fieldset_dopy label {
@@ -969,6 +982,10 @@ option {
     font-size: 1em;
     margin: 10px;
   }
+
+  .save_info_text {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -983,8 +1000,16 @@ option {
   #resetButton {
     width: 90%;
     padding: 8px;
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 8px;
+  }
+
+  .save_info_text {
+    font-size: 0.8em;
+  }
+
+  .save_info_text label {
+    font-size: 0.8em;
   }
 }
 
@@ -993,7 +1018,7 @@ option {
   position: absolute;
   padding: 20px;
   margin: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -1003,22 +1028,18 @@ option {
 }
 
 .close {
-  position: relative;
   display: inline-block;
   text-align: center;
   font-size: 0.7em;
-  height: 30px;
-  width: 100px;
-  padding: 8px;
-  cursor: pointer;
   height: 35px;
   width: 120px;
-  border-radius: 5px;
   padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
   text-decoration: none;
   margin-top: 10px;
   background-color: #215ba3;
-  border-color: #222a30;
+  border: 1px solid #222a30;
   color: #ffffff;
 }
 
@@ -1028,14 +1049,14 @@ option {
     width: 70%;
     padding: 15px;
     margin: 15px;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .close {
-    font-size: 0.4em;
-    height: 30px;
-    width: 100px;
-    padding: 8px;
+    font-size: 0.8em;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
   }
 }
 
@@ -1049,13 +1070,13 @@ option {
 
   .close {
     font-size: 1em;
-    height: 30px;
-    width: 80px;
-    padding: 5px;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
   }
 
   .dialogs a {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 }
 
@@ -1070,8 +1091,9 @@ option {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.2rem;
+  gap: 0.5rem;
   margin-top: auto;
+  box-sizing: border-box;
 }
 
 .footer:hover {
@@ -1083,6 +1105,7 @@ option {
   .footer {
     flex-direction: column;
     text-align: center;
+    padding: 1rem;
   }
 
   .footer > * {
@@ -1092,6 +1115,7 @@ option {
 
 @media (max-width: 480px) {
   .footer {
-    padding: 1rem;
+    padding: 0.75rem; 
+    font-size: 0.9em;
   }
 }
