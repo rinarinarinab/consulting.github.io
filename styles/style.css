@@ -33,7 +33,7 @@ body {
 }
 
 .menu-section {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -437,14 +437,12 @@ select {
   white-space: pre-wrap;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;
 }
 
 option {
   white-space: pre-wrap;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;
 }
 
 .output_info {
@@ -696,9 +694,6 @@ option {
 
 /* футер */
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   text-align: center;
   padding: 1.5rem;
@@ -708,9 +703,8 @@ option {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-  box-sizing: border-box;
-  height: auto;
+  gap: 0.2rem;
+  margin-top: auto;
 }
 
 .footer:hover {
