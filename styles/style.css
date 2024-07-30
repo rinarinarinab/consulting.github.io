@@ -118,13 +118,6 @@ nav ul a:hover {
     height: 25px;
   }
 
-  .one,
-  .two,
-  .three {
-    height: 4px;
-    margin: 5px auto;
-  }
-
   nav ul a {
     font-size: 1.2em;
   }
@@ -153,13 +146,6 @@ nav ul a:hover {
   .menu-toggle {
     width: 20px;
     height: 20px;
-  }
-
-  .one,
-  .two,
-  .three {
-    height: 3px;
-    margin: 4px auto;
   }
 
   nav ul a {
