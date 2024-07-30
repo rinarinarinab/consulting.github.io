@@ -270,33 +270,6 @@ a:active {
     height: 200px;
   }
 
-  .ghost,
-  .ghost-copy {
-    width: 60%;
-    height: 60%;
-    left: 20%;
-  }
-
-  .eye,
-  .eye-right {
-    width: 10px;
-    height: 10px;
-  }
-
-  .mouth {
-    width: 8px;
-    height: 8px;
-    border-width: 2px;
-  }
-
-  .one,
-  .two,
-  .three,
-  .four {
-    width: 22%;
-    height: 20%;
-  }
-
   h1 {
     font-size: 6em;
   }
