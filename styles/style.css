@@ -697,7 +697,8 @@ option {
 /* футер */
 .footer {
   z-index: 1000;
-  position:absolute;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   text-align: center;
   padding: 1.5rem;
@@ -709,7 +710,6 @@ option {
   align-items: center;
   gap: 0.5rem;
   box-sizing: border-box;
-  margin-top: auto;
 }
 
 .footer:hover {
