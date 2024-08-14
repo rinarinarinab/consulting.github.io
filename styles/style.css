@@ -336,11 +336,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding-top: 10px;
-}
-
-.content h2 {
-  margin-top: 10px;
 }
 
 .input_info,
