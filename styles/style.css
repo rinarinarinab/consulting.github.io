@@ -777,13 +777,13 @@ option {
     flex-wrap: wrap;
 }
 
-  .law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
-    width: 90%;
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    justify-content: center;
-    align-items: center;
+.law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
   .regulator .items {
