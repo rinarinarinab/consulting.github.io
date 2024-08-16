@@ -753,7 +753,8 @@ option {
 
   .class_regulation h2 {
     left: 5px;
-  }
+    position: relative;
+}
 
   .category {
     display: flex;
