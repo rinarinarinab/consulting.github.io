@@ -777,7 +777,7 @@ option {
     flex-direction: row;
   }
 
-  .items.show {
+  .items.fz.show {
     display: flex;
     margin: 10px;
     left: 0;
