@@ -771,12 +771,17 @@ option {
 
   .items.fz {
     display: flex;
+    margin: 10px;
     left: 0;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
   }
+
+  .items.show {
+    display: flex;
+    margin: 10px;
+    left: 0;
+}
 
   .law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
     width: 100%;
@@ -788,7 +793,7 @@ option {
     flex-wrap: nowrap;
     flex-direction: row;
   }
-  
+
   .regulator .items {
     display: flex;
     border-radius: 7.5px;
