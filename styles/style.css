@@ -799,6 +799,12 @@ option {
     align-items: center;
   }
 
+  .category.items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
   .regulator .items {
     display: flex;
     border-radius: 7.5px;
