@@ -777,22 +777,14 @@ option {
     flex-direction: row;
   }
 
-  .items.fz.show {
-    display: flex;
-    margin: 10px;
-    left: 0;
-}
-
   .law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
-    width: 100%;
+    width: 90%;
     display: flex;
     padding: 10px;
     margin: 10px;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-  }
+}
 
   .regulator .items {
     display: flex;
