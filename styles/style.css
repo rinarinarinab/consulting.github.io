@@ -754,20 +754,28 @@ option {
   .class_regulation h2 {
     left: 5px;
     position: relative;
-}
+  }
 
   .category {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
+    justify-content: center;
+    flex-direction: row;
+  }
 
   .regulator {
-    flex-direction: row;
+    display: grid;
     margin: 10px;
     flex: 1;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .regulator h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    text-align: center;
   }
 
   .items.fz {
@@ -776,16 +784,20 @@ option {
     left: 0;
     flex-direction: row;
     flex-wrap: wrap;
-}
+  }
 
-  .law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
+  .law_fz_149,
+  .law_fz_187,
+  .law_fz_152,
+  .law_fz_161,
+  .law_fz_86 {
     width: 90%;
     display: flex;
     padding: 10px;
     margin: 10px;
     justify-content: center;
     align-items: center;
-}
+  }
 
   .regulator .items {
     display: flex;
