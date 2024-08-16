@@ -438,7 +438,6 @@ document.addEventListener("DOMContentLoaded", function () {
       results21 &&
       results17
     ) {
-
       switch (results21) {
         case "1":
           switch (results17) {
@@ -622,28 +621,49 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (checkbox_ispdn && results21) {
       switch (results21) {
         case "1":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn1.docx", "ispdn1.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn1.docx",
+            "ispdn1.docx"
+          );
           break;
         case "2":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn2.docx", "ispdn2.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn2.docx",
+            "ispdn2.docx"
+          );
           break;
         case "3":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn3.docx", "ispdn3.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn3.docx",
+            "ispdn3.docx"
+          );
           break;
         case "4":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn4.docx", "ispdn4.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ISPDn/ispdn4.docx",
+            "ispdn4.docx"
+          );
           break;
       }
     } else if (checkbox_gis && results17) {
       switch (results17) {
         case "1":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/GIS/gis1.docx", "gis1.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/GIS/gis1.docx",
+            "gis1.docx"
+          );
           break;
         case "2":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/GIS/gis2.docx", "gis2.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/GIS/gis2.docx",
+            "gis2.docx"
+          );
           break;
         case "3":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/GIS/gis3.docx", "gis3.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/GIS/gis3.docx",
+            "gis3.docx"
+          );
           break;
       }
     }
@@ -846,28 +866,49 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (checkbox_skzi && checkbox_ispdn && results21) {
       switch (results21) {
         case "1":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn1.docx", "ispdn1.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn1.docx",
+            "ispdn1.docx"
+          );
           break;
         case "2":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn2.docx", "ispdn2.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn2.docx",
+            "ispdn2.docx"
+          );
           break;
         case "3":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn3.docx", "ispdn3.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn3.docx",
+            "ispdn3.docx"
+          );
           break;
         case "4":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn4.docx", "ispdn4.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/ISPDn/ispdn4.docx",
+            "ispdn4.docx"
+          );
           break;
       }
     } else if (checkbox_skzi && checkbox_gis && results17) {
       switch (results17) {
         case "1":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/GIS/gis1.docx", "gis1.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/GIS/gis1.docx",
+            "gis1.docx"
+          );
           break;
         case "2":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/GIS/gis2.docx", "gis2.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/GIS/gis2.docx",
+            "gis2.docx"
+          );
           break;
         case "3":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/GIS/gis3.docx", "gis3.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/SKZI/GIS/gis3.docx",
+            "gis3.docx"
+          );
           break;
       }
     }
@@ -1328,13 +1369,22 @@ document.addEventListener("DOMContentLoaded", function () {
     if (checkbox_asu && results489) {
       switch (results489) {
         case "1":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ASU/asu1.docx", "asu1.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ASU/asu1.docx",
+            "asu1.docx"
+          );
           break;
         case "2":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ASU/asu2.docx", "asu2.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ASU/asu2.docx",
+            "asu2.docx"
+          );
           break;
         case "3":
-          setDownloadLink("https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ASU/asu3.docx", "asu3.docx");
+          setDownloadLink(
+            "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/ASU/asu3.docx",
+            "asu3.docx"
+          );
           break;
       }
     }
@@ -1470,13 +1520,25 @@ function changeURL_kii() {
   // ФАЙЛЫ, ЛОГИКА
   switch (results187) {
     case 1:
-      setDownloadLink(saveLinkKii, "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/KII/kii1.docx", "kii1.docx");
+      setDownloadLink(
+        saveLinkKii,
+        "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/KII/kii1.docx",
+        "kii1.docx"
+      );
       break;
     case 2:
-      setDownloadLink(saveLinkKii, "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/KII/kii2.docx", "kii2.docx");
+      setDownloadLink(
+        saveLinkKii,
+        "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/KII/kii2.docx",
+        "kii2.docx"
+      );
       break;
     case 3:
-      setDownloadLink(saveLinkKii, "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/KII/kii3.docx", "kii3.docx");
+      setDownloadLink(
+        saveLinkKii,
+        "https://github.com/rinarinarinab/consulting.github.io/raw/main/files/KII/kii3.docx",
+        "kii3.docx"
+      );
       break;
   }
 }
