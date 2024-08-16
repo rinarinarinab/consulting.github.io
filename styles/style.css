@@ -773,9 +773,9 @@ option {
     display: flex;
     margin: 10px;
     left: 0;
-    flex-wrap: nowrap;
     flex-direction: row;
-  }
+    flex-wrap: wrap;
+}
 
   .law_fz_149, .law_fz_187, .law_fz_152, .law_fz_161, .law_fz_86 {
     width: 90%;
