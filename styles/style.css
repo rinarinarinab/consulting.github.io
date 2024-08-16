@@ -810,6 +810,7 @@ option {
     justify-content: space-evenly;
     align-items: center;
     align-content: flex-start;
+    font-size: 0.9em;
   }
 
   .input_info,
