@@ -753,10 +753,6 @@ option {
     justify-content: center;
   }
 
-  .class_categorization h2 {
-    margin-top: 20px;
-  }
-
   .regulator {
     flex-direction: row;
     margin: 10px;
