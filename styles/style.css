@@ -915,7 +915,7 @@ option {
 }
 
 /* ПЛАНШЕТЫ (портретный режим) */
-@media (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
   .menu-section {
     padding: 8px;
   }
@@ -1324,7 +1324,7 @@ option {
 }
 
 /* ПЛАНШЕТЫ (альбомный режим) */
-@media (orientation: landscape) and (min-width: 768px) and (max-width: 1023px) {
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1024px) {
   .menu-section {
     padding: 8px;
   }
