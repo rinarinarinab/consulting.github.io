@@ -8,5 +8,12 @@
     "css-prefix-order": "off",
     "axe/forms": "off",
     "axe/keyboard": "off"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 127",
+    "not firefox <= 128",
+    "not opera <= 111"
+  ]
 }
