@@ -710,7 +710,11 @@ option {
 }
 
 /* Медиазапросы для адаптации под мобильные устройства */
-@media (max-width: 768px) {
+/* Телефоны */
+@media only screen and (orientation: portrait) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+@media only screen and (orientation: portrait) and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   .menu-section {
     padding: 8px;
   }
