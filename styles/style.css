@@ -711,7 +711,7 @@ option {
 
 /* Медиазапросы для адаптации под мобильные устройства */
 /* ТЕЛЕФОНЫ (портретный режим) */
-@media (orientation: portrait) and (max-width: 768px) {
+@media (orientation: portrait) and (max-width: 767px) {
   .menu-section {
     padding: 8px;
   }
@@ -912,7 +912,7 @@ option {
 }
 
 /* ПЛАНШЕТЫ (портретный режим) */
-@media (orientation: portrait) and (min-width: 769px) and (max-width: 1024px){
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1023px){
   .menu-section {
     padding: 8px;
   }
@@ -1114,7 +1114,7 @@ option {
 }
 
 /* ТЕЛЕФОНЫ (альбомный режим) */
-@media (orientation: landscape) and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 767px) {
   .menu-section {
     padding: 8px;
   }
@@ -1315,7 +1315,7 @@ option {
 }
 
 /* ПЛАНШЕТЫ (альбомный режим) */
-@media (orientation: landscape) and (min-width: 769px) and (max-width: 1024px){
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1023px){
   .menu-section {
     padding: 8px;
   }
