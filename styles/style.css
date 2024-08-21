@@ -868,8 +868,9 @@ option {
         display: flex;
         position: relative;
         align-items: center;
+        text-align: start;
         margin-right: 10px;
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
   .kii {
