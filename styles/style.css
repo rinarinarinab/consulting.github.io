@@ -890,10 +890,11 @@ option {
   }
 
   .dialogs {
-    width: 100%;
+    height: max-content;
+    width: max-content;
     padding: 15px;
     margin: 15px;
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .close {
@@ -1095,10 +1096,11 @@ option {
   }
 
   .dialogs {
-    width: 100%;
+    height: max-content;
+    width: max-content;
     padding: 15px;
     margin: 15px;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .close {
@@ -1299,10 +1301,11 @@ option {
   }
 
   .dialogs {
-    width: 100%;
+    height: max-content;
+    width: max-content;
     padding: 15px;
     margin: 15px;
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .close {
@@ -1504,10 +1507,11 @@ option {
   }
 
   .dialogs {
-    width: 100%;
+    height: max-content;
+    width: max-content;
     padding: 15px;
     margin: 15px;
-    font-size: 1.3em;
+    font-size: 1.5em
   }
 
   .close {
