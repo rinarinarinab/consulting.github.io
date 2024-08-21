@@ -767,7 +767,9 @@ option {
     display: grid;
     margin: 10px;
     flex: 1;
-    justify-content: start;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
   }
 
   .regulator h3 {
