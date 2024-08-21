@@ -784,6 +784,8 @@ option {
     left: 0;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .law_fz_149,
@@ -791,12 +793,12 @@ option {
   .law_fz_152,
   .law_fz_161,
   .law_fz_86 {
-    width: 90%;
+    width: 90px;
     display: flex;
     padding: 10px;
     margin: 10px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
   .category.items {
@@ -996,7 +998,7 @@ option {
   .law_fz_152,
   .law_fz_161,
   .law_fz_86 {
-    width: 90%;
+    width: 90px;
     display: flex;
     padding: 10px;
     margin: 10px;
