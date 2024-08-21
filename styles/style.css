@@ -1114,6 +1114,7 @@ option {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
   }
 
   .kii {
