@@ -909,14 +909,14 @@ option {
     font-size: 0.9em;
   }
 
-  .save_info_text label {
-    display: flex;
-    position: relative;
-    padding: 2px;
-    font-weight: lighter;
-    font-size: 0.9em;
-    text-align: center;
-  }
+     .save_info_text label {
+        display: flex;
+        position: relative;
+        padding: 2px;
+        font-weight: lighter;
+        font-size: 0.9em;
+        text-align: start;
+    }
 
   .dialogs {
     height: max-content;
@@ -1143,14 +1143,14 @@ option {
     font-size: 0.9em;
   }
 
-  .save_info_text label {
-    display: flex;
-    position: relative;
-    padding: 2px;
-    font-weight: lighter;
-    font-size: 0.9em;
-    text-align: center;
-  }
+     .save_info_text label {
+        display: flex;
+        position: relative;
+        padding: 2px;
+        font-weight: lighter;
+        font-size: 0.9em;
+        text-align: start;
+    }
 
   .dialogs {
     height: max-content;
@@ -1374,14 +1374,14 @@ option {
     font-size: 0.9em;
   }
 
-  .save_info_text label {
-    display: flex;
-    position: relative;
-    padding: 2px;
-    font-weight: lighter;
-    font-size: 0.9em;
-    text-align: center;
-  }
+     .save_info_text label {
+        display: flex;
+        position: relative;
+        padding: 2px;
+        font-weight: lighter;
+        font-size: 0.9em;
+        text-align: start;
+    }
 
   .dialogs {
     height: max-content;
@@ -1605,14 +1605,14 @@ option {
     font-size: 0.9em;
   }
 
-  .save_info_text label {
-    display: flex;
-    position: relative;
-    padding: 2px;
-    font-weight: lighter;
-    font-size: 0.9em;
-    text-align: center;
-  }
+     .save_info_text label {
+        display: flex;
+        position: relative;
+        padding: 2px;
+        font-weight: lighter;
+        font-size: 0.9em;
+        text-align: start;
+    }
 
   .dialogs {
     height: max-content;
