@@ -864,14 +864,14 @@ option {
     margin-top: 10px;
   }
 
-    fieldset .fieldset_dopy label {
-        display: flex;
-        position: relative;
-        align-items: center;
-        text-align: start;
-        margin-right: 10px;
-        font-size: 0.9em;
-    }
+  fieldset .fieldset_dopy label {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 0.9em;
+  }
 
   .kii {
     flex-wrap: wrap;
