@@ -865,6 +865,8 @@ option {
   }
 
   fieldset .fieldset_dopy label {
+    display: flex;
+    position: relative;
     align-items: center;
     margin-right: 10px;
     font-size: 0.9em;
@@ -1099,6 +1101,8 @@ option {
   }
 
   fieldset .fieldset_dopy label {
+    display: flex;
+    position: relative;
     align-items: center;
     margin-right: 10px;
     font-size: 0.9em;
@@ -1330,6 +1334,8 @@ option {
   }
 
   fieldset .fieldset_dopy label {
+    display: flex;
+    position: relative;
     align-items: center;
     margin-right: 10px;
     font-size: 0.9em;
@@ -1561,6 +1567,8 @@ option {
   }
 
   fieldset .fieldset_dopy label {
+    display: flex;
+    position: relative;
     align-items: center;
     margin-right: 10px;
     font-size: 0.9em;
