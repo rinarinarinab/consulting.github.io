@@ -922,212 +922,6 @@ option {
   }
 }
 
-/* ПЛАНШЕТЫ (портретный режим) */
-@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
-  .menu-section {
-    padding: 8px;
-  }
-
-  nav ul a {
-    font-size: 1.2em;
-  }
-
-  .content {
-    padding: 15px;
-  }
-
-  h1 {
-    margin-top: 25px;
-    font-size: 2em;
-  }
-
-  header p {
-    font-size: 1.2em;
-  }
-
-  .container {
-    margin: 10px;
-    padding: 10px;
-  }
-
-  .module {
-    padding: 15px;
-    width: 95%;
-  }
-
-  .module h2 {
-    font-size: 1.3em;
-  }
-
-  .module p {
-    font-size: 1.1em;
-  }
-
-  .class_regulation h2 {
-    left: 5px;
-    position: relative;
-  }
-
-  .category {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-  }
-
-  .regulator {
-    display: grid;
-    margin: 10px;
-    flex: 1;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-  }
-
-  .regulator h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    text-align: center;
-  }
-
-  .items.fz {
-    display: flex;
-    margin: 10px;
-    left: 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .law_fz_149,
-  .law_fz_187,
-  .law_fz_152,
-  .law_fz_161,
-  .law_fz_86 {
-    width: 130px;
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .category.items {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-  }
-
-  .regulator .items {
-    display: flex;
-    border-radius: 7.5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    border: 1px solid #30303049;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: flex-start;
-    font-size: 0.9em;
-  }
-
-  .input_info,
-  .output_info {
-    width: 100%;
-    margin: 0;
-  }
-
-  .output_info .text {
-    font-size: 1.4em;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  select {
-    width: 100%;
-    font-size: 0.9em;
-    padding: 5px;
-  }
-
-  .save_base {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-  }
-
-  .save_base button {
-    padding: 12px;
-    font-size: 0.9em;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  fieldset .fieldset_dopy label {
-    align-items: center;
-    margin-right: 10px;
-    font-size: 0.9em;
-  }
-
-  .kii {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .kii button {
-    width: 80%;
-    padding: 10px;
-    font-size: 1em;
-    margin: 10px;
-  }
-
-  .save_info button {
-    padding: 10px;
-    font-size: 1em;
-    margin: 10px;
-  }
-
-  #undoButton,
-  #receivedData_kii,
-  #resetButton {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    margin: 10px;
-  }
-
-  .save_info_text {
-    font-size: 0.9em;
-  }
-
-  .dialogs {
-    height: max-content;
-    width: max-content;
-    padding: 15px;
-    margin: 15px;
-    font-size: 1.2em;
-  }
-
-  .close {
-    font-size: 0.8em;
-    height: 40px;
-    width: 130px;
-    padding: 10px;
-  }
-
-  .footer {
-    width: 100%;
-    background: #ffdbaa;
-    color: #58636b;
-    font-weight: 500;
-    margin-top: auto;
-    padding: 10px;
-  }
-
-  .footer > * {
-    margin: 0.5rem 0;
-  }
-}
-
 /* ТЕЛЕФОНЫ (альбомный режим) */
 @media (orientation: landscape) and (max-width: 767px) {
   .menu-section {
@@ -1314,6 +1108,212 @@ option {
     padding: 15px;
     margin: 15px;
     font-size: 1em;
+  }
+
+  .close {
+    font-size: 0.8em;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    background: #ffdbaa;
+    color: #58636b;
+    font-weight: 500;
+    margin-top: auto;
+    padding: 10px;
+  }
+
+  .footer > * {
+    margin: 0.5rem 0;
+  }
+}
+
+/* ПЛАНШЕТЫ (портретный режим) */
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
+  .menu-section {
+    padding: 8px;
+  }
+
+  nav ul a {
+    font-size: 1.2em;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  h1 {
+    margin-top: 25px;
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1.2em;
+  }
+
+  .container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .module {
+    padding: 15px;
+    width: 95%;
+  }
+
+  .module h2 {
+    font-size: 1.3em;
+  }
+
+  .module p {
+    font-size: 1.1em;
+  }
+
+  .class_regulation h2 {
+    left: 5px;
+    position: relative;
+  }
+
+  .category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .regulator {
+    display: grid;
+    margin: 10px;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .regulator h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .items.fz {
+    display: flex;
+    margin: 10px;
+    left: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .law_fz_149,
+  .law_fz_187,
+  .law_fz_152,
+  .law_fz_161,
+  .law_fz_86 {
+    width: 130px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category.items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .regulator .items {
+    display: flex;
+    border-radius: 7.5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: 1px solid #30303049;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    font-size: 0.9em;
+  }
+
+  .input_info,
+  .output_info {
+    width: 100%;
+    margin: 0;
+  }
+
+  .output_info .text {
+    font-size: 1.4em;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  select {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 5px;
+  }
+
+  .save_base {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .save_base button {
+    padding: 12px;
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  fieldset .fieldset_dopy label {
+    align-items: center;
+    margin-right: 10px;
+    font-size: 0.9em;
+  }
+
+  .kii {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .kii button {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+  }
+
+  .save_info button {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+  }
+
+  #undoButton,
+  #receivedData_kii,
+  #resetButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+  }
+
+  .save_info_text {
+    font-size: 0.9em;
+  }
+
+  .dialogs {
+    height: max-content;
+    width: max-content;
+    padding: 15px;
+    margin: 15px;
+    font-size: 1.2em;
   }
 
   .close {
