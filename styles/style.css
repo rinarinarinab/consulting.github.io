@@ -1202,7 +1202,7 @@ option {
   .law_fz_152,
   .law_fz_161,
   .law_fz_86 {
-    width: 90%;
+    width: 90px;
     display: flex;
     padding: 10px;
     margin: 10px;
@@ -1407,7 +1407,7 @@ option {
   .law_fz_152,
   .law_fz_161,
   .law_fz_86 {
-    width: 90%;
+    width: 90px;
     display: flex;
     padding: 10px;
     margin: 10px;
