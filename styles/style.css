@@ -864,13 +864,13 @@ option {
     margin-top: 10px;
   }
 
-  fieldset .fieldset_dopy label {
-    display: flex;
-    position: relative;
-    align-items: center;
-    margin-right: 10px;
-    font-size: 0.9em;
-  }
+    fieldset .fieldset_dopy label {
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 0.7em;
+    }
 
   .kii {
     flex-wrap: wrap;
@@ -911,14 +911,14 @@ option {
     font-size: 0.9em;
   }
 
-     .save_info_text label {
-        display: flex;
-        position: relative;
-        padding: 2px;
-        font-weight: lighter;
-        font-size: 0.9em;
-        text-align: start;
-    }
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: start;
+  }
 
   .dialogs {
     height: max-content;
@@ -1147,14 +1147,14 @@ option {
     font-size: 0.9em;
   }
 
-     .save_info_text label {
-        display: flex;
-        position: relative;
-        padding: 2px;
-        font-weight: lighter;
-        font-size: 0.9em;
-        text-align: start;
-    }
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: start;
+  }
 
   .dialogs {
     height: max-content;
@@ -1380,14 +1380,14 @@ option {
     font-size: 0.9em;
   }
 
-     .save_info_text label {
-        display: flex;
-        position: relative;
-        padding: 2px;
-        font-weight: lighter;
-        font-size: 0.9em;
-        text-align: start;
-    }
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: start;
+  }
 
   .dialogs {
     height: max-content;
@@ -1613,14 +1613,14 @@ option {
     font-size: 0.9em;
   }
 
-     .save_info_text label {
-        display: flex;
-        position: relative;
-        padding: 2px;
-        font-weight: lighter;
-        font-size: 0.9em;
-        text-align: start;
-    }
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: start;
+  }
 
   .dialogs {
     height: max-content;
