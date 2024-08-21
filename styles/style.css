@@ -828,7 +828,7 @@ option {
   }
 
   .output_info {
-    font-size: 1em;   
+    font-size: 1em;
   }
 
   .output_info .text {
@@ -848,7 +848,7 @@ option {
   }
 
   fieldset {
-    font-size: 0.8em;  
+    font-size: 0.8em;
   }
 
   .save_base {
@@ -898,7 +898,24 @@ option {
   }
 
   .save_info_text {
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    font-weight: lighter;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
     font-size: 0.9em;
+  }
+
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: center;
   }
 
   .dialogs {
@@ -1045,7 +1062,7 @@ option {
   }
 
   .output_info {
-    font-size: 1em;   
+    font-size: 1em;
   }
 
   .output_info .text {
@@ -1059,15 +1076,15 @@ option {
     font-size: 0.9em;
     padding: 5px;
   }
-  
+
   legend {
     font-size: 0.8em;
   }
 
   fieldset {
-    font-size: 0.8em;  
+    font-size: 0.8em;
   }
-  
+
   .save_base {
     flex-direction: column;
     align-items: center;
@@ -1115,7 +1132,24 @@ option {
   }
 
   .save_info_text {
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    font-weight: lighter;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
     font-size: 0.9em;
+  }
+
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: center;
   }
 
   .dialogs {
@@ -1279,7 +1313,7 @@ option {
   }
 
   fieldset {
-    font-size: 0.9em;  
+    font-size: 0.9em;
   }
 
   .save_base {
@@ -1329,7 +1363,24 @@ option {
   }
 
   .save_info_text {
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    font-weight: lighter;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
     font-size: 0.9em;
+  }
+
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: center;
   }
 
   .dialogs {
@@ -1493,7 +1544,7 @@ option {
   }
 
   fieldset {
-    font-size: 0.9em;  
+    font-size: 0.9em;
   }
 
   .save_base {
@@ -1543,7 +1594,24 @@ option {
   }
 
   .save_info_text {
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    font-weight: lighter;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
     font-size: 0.9em;
+  }
+
+  .save_info_text label {
+    display: flex;
+    position: relative;
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: center;
   }
 
   .dialogs {
@@ -1551,7 +1619,7 @@ option {
     width: max-content;
     padding: 15px;
     margin: 15px;
-    font-size: 1.5em
+    font-size: 1.5em;
   }
 
   .close {
