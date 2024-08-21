@@ -1253,13 +1253,11 @@ option {
     font-size: 0.9em;
     padding: 5px;
   }
-
-  select {
-    width: 100%;
-    font-size: 0.9em;
-    padding: 5px;
+  
+  legend {
+    font-size: 0.7em;
   }
-
+  
   .save_base {
     flex-direction: column;
     align-items: center;
@@ -1521,7 +1519,7 @@ option {
     width: max-content;
     padding: 15px;
     margin: 15px;
-    font-size: 1.5em;
+    font-size: 1.5em
   }
 
   .close {
