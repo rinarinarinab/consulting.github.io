@@ -1285,6 +1285,8 @@ option {
     margin: 10px;
     left: 0;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
