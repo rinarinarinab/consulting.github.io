@@ -920,6 +920,7 @@ option {
   #receivedData_kii,
   #resetButton {
     width: 100px;
+    margin: auto;
     font-size: 0.8em;
   }
 
@@ -1166,6 +1167,7 @@ option {
   #receivedData_kii,
   #resetButton {
     width: 100px;
+    margin: auto;
     font-size: 0.8em;
   }
 
