@@ -159,27 +159,9 @@ function result187() {
 
     console.log("Changed:", select.id, "Value:", select.value);
 
-    updateClassKiiBasedOnSelect(select.value);
+    calculateMaxClassKii(); // Пересчитываем максимальное значение КИИ
 
-    updateResults();
-    updateSelectOptions();
-  }
-
-  function updateClassKiiBasedOnSelect(value) {
-    switch (value) {
-      case "1":
-        class_kii = 3;
-        break;
-      case "2":
-        class_kii = 2;
-        break;
-      case "3":
-        class_kii = 1;
-        break;
-      case "4":
-        class_kii = "Система не ЗОКИИ";
-        break;
-    }
+    updateResults(); // Обновляем результаты на странице
   }
 
   // Обновление результатов на странице
@@ -190,40 +172,6 @@ function result187() {
     console.log("Updated Results:", class_kii);
   }
 
-  // Обновление опций select на основе значения class_kii
-  function updateSelectOptions() {
-    document.querySelectorAll("select").forEach(function (select) {
-      select.querySelectorAll("option").forEach(function (option) {
-        if (class_kii === 1 || (class_kii === 2 && option.value === "1")) {
-          option.disabled = true; // Отключить определенные опции
-        } else {
-          option.disabled = false; // Включить все опции
-        }
-      });
-    });
-    console.log("Updated Select Options");
-  }
-
-  // Начальная проверка
-  function initialCheck() {
-    document.querySelectorAll("select").forEach(function (select) {
-      if (select.value === "4") {
-        class_kii = "Система не ЗОКИИ";
-      }
-      lastValues[select.id] = select.value; // Сохранение начального значения
-    });
-
-    function updateResults() {
-      var inputValue = document.getElementById("results187").value;
-      resultsElement.value = class_kii;
-      resultsElement.innerHTML = class_kii;
-      console.log("Updated Results:", class_kii);
-    }
-    updateSelectOptions();
-    console.log("Initial Check Done");
-  }
-
-  // Категорирование КИИ
   // Вычисление максимального значения class_kii
   function calculateMaxClassKii() {
     var maxClassKii = -Infinity;
@@ -236,10 +184,10 @@ function result187() {
           currentClassKii = 1; // Вес для class_kii = 3
           break;
         case "2":
-          currentClassKii = 3; // Вес для class_kii = 2
+          currentClassKii = 2; // Вес для class_kii = 2
           break;
         case "3":
-          currentClassKii = 2; // Вес для class_kii = 1
+          currentClassKii = 3; // Вес для class_kii = 1
           break;
         case "4":
           currentClassKii = 0; // 'Система не ЗОКИИ' считается как 0 для вычисления максимального значения
@@ -258,16 +206,16 @@ function result187() {
     } else if (maxClassKii === -Infinity) {
       class_kii = null;
     } else {
-      // Восстановим исходное значение class_kii на основе веса
+      // Восстанавливаем исходное значение class_kii на основе веса
       switch (maxClassKii) {
         case 1:
           class_kii = 3;
           break;
         case 2:
-          class_kii = 1;
+          class_kii = 2;
           break;
         case 3:
-          class_kii = 2;
+          class_kii = 1;
           break;
       }
     }
@@ -283,7 +231,6 @@ function result187() {
       lastValues[select.id] = "4"; // Обновить сохраненное значение
       calculateMaxClassKii();
       updateResults();
-      updateSelectOptions();
     }
   }
 
@@ -297,7 +244,20 @@ function result187() {
     });
     calculateMaxClassKii();
     updateResults();
-    updateSelectOptions();
+  }
+
+  // Начальная проверка
+  function initialCheck() {
+    document.querySelectorAll("select").forEach(function (select) {
+      if (select.value === "4") {
+        class_kii = "Система не ЗОКИИ";
+      }
+      lastValues[select.id] = select.value; // Сохранение начального значения
+    });
+
+    calculateMaxClassKii(); // Пересчитываем максимальное значение КИИ при инициализации
+    updateResults();
+    console.log("Initial Check Done");
   }
 
   // Убедитесь, что DOM загружен перед вызовом функции
@@ -328,43 +288,7 @@ function result187() {
       console.log("Кнопка Сброс не найдена");
     }
   });
-
-  // Убедитесь, что DOM загружен перед вызовом функции
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll("select").forEach(function (select) {
-      select.addEventListener("change", function () {
-        handleSelectChange(select); // Передача select в функцию handleSelectChange при изменении
-      });
-    });
-    initialCheck(); // Выполнить проверку начальных значений
-
-    var undoButton = document.getElementById("undoButton");
-    if (undoButton) {
-      undoButton.addEventListener("click", undoLastChange); // Добавить обработчик для кнопки "Отмена"
-      console.log("Undo Button Listener Added");
-    } else {
-      console.log("Undo Button Not Found");
-    }
-  });
 }
-
-// Убедитесь, что DOM загружен перед вызовом функции (Сброс)
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("select").forEach(function (select) {
-    select.addEventListener("change", function () {
-      handleSelectChange(select); // Передача select в функцию handleSelectChange при изменении
-    });
-  });
-  initialCheck(); // Выполнить проверку начальных значений
-
-  var resetButton = document.getElementById("resetButton");
-  if (resetButton) {
-    resetButton.addEventListener("click", undoLastChange); // Добавить обработчик для кнопки "Сброс"
-    console.log("Undo Button Listener Added");
-  } else {
-    console.log("Undo Button Not Found");
-  }
-});
 
 result187();
 
