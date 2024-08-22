@@ -1161,13 +1161,12 @@ option {
     margin: 10px;
   }
 
+  .save_info,
   #undoButton,
   #receivedData_kii,
   #resetButton {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    margin: 10px;
+    width: 100px;
+    font-size: 0.8em;
   }
 
   .save_info_text {
