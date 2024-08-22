@@ -1028,11 +1028,11 @@ option {
     justify-items: center;
   }
 
-  .regulator h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    text-align: center;
-  }
+    .regulator h3 {
+        font-size: 1em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 
   .items.fz {
     display: flex;
@@ -1275,11 +1275,11 @@ option {
     justify-items: center;
   }
 
-  .regulator h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    text-align: center;
-  }
+    .regulator h3 {
+        font-size: 1em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 
   .items.fz {
     display: flex;
@@ -1511,11 +1511,11 @@ option {
     justify-items: center;
   }
 
-  .regulator h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    text-align: center;
-  }
+    .regulator h3 {
+        font-size: 1em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 
   .items.fz {
     display: flex;
