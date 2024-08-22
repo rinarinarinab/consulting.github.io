@@ -1134,11 +1134,13 @@ option {
   }
 
   .kii_button {
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
   }
 
   .kii {
