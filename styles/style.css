@@ -197,7 +197,9 @@ header {
 .regulator {
   flex: 1;
   margin: 20px;
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .category h2 {
