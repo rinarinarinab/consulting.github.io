@@ -767,16 +767,16 @@ option {
   }
 
   .class_regulation h2 {
-    left: 5px;
     position: relative;
   }
 
-  .category {
+  .category.class_category {
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: max-content;
     flex-direction: row;
-  }
+    align-items: flex-start;
+}
 
   .regulator {
     display: grid;
@@ -1006,16 +1006,16 @@ option {
   }
 
   .class_regulation h2 {
-    left: 5px;
     position: relative;
   }
 
-  .category {
+  .category.class_category {
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: max-content;
     flex-direction: row;
-  }
+    align-items: flex-start;
+}
 
   .regulator {
     display: grid;
@@ -1251,16 +1251,16 @@ option {
   }
 
   .class_regulation h2 {
-    left: 5px;
     position: relative;
   }
 
-  .category {
+  .category.class_category {
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: max-content;
     flex-direction: row;
-  }
+    align-items: flex-start;
+}
 
   .regulator {
     display: grid;
@@ -1484,16 +1484,16 @@ option {
   }
 
   .class_regulation h2 {
-    left: 5px;
     position: relative;
   }
 
-  .category {
+  .category.class_category {
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: max-content;
     flex-direction: row;
-  }
+    align-items: flex-start;
+}
 
   .regulator {
     display: grid;
