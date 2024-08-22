@@ -188,6 +188,10 @@ header {
   margin-top: 20px;
 }
 
+.class_regulation.content h2 {
+  padding-left: 10%;
+}
+
 .category {
   display: flex;
   flex-wrap: wrap;
