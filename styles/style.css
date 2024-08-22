@@ -774,9 +774,10 @@ option {
     margin: 0 auto;
     display: flex;
     height: max-content;
+    width: auto;
     flex-direction: row;
     align-items: flex-start;
-}
+  }
 
   .regulator {
     display: grid;
@@ -1013,9 +1014,10 @@ option {
     margin: 0 auto;
     display: flex;
     height: max-content;
+    width: auto;
     flex-direction: row;
     align-items: flex-start;
-}
+  }
 
   .regulator {
     display: grid;
@@ -1258,9 +1260,10 @@ option {
     margin: 0 auto;
     display: flex;
     height: max-content;
+    width: auto;
     flex-direction: row;
     align-items: flex-start;
-}
+  }
 
   .regulator {
     display: grid;
@@ -1491,9 +1494,10 @@ option {
     margin: 0 auto;
     display: flex;
     height: max-content;
+    width: auto;
     flex-direction: row;
     align-items: flex-start;
-}
+  }
 
   .regulator {
     display: grid;
