@@ -185,7 +185,7 @@ header {
 
 /* НПА */
 .documents {
-  margin-top: 20px;
+  margin-top: 2%;
 }
 
 .class_regulation.content h2 {
@@ -200,7 +200,7 @@ header {
 
 .regulator {
   flex: 1;
-  margin: 20px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,7 +243,6 @@ header {
 
 .items.fz {
   position: relative;
-  left: -10%;
   display: flex;
   flex-direction: row;
   align-items: start;
