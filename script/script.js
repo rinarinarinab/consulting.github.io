@@ -223,6 +223,7 @@ function result187() {
     console.log("Initial Check Done");
   }
 
+  // Категорирование КИИ
   // Вычисление максимального значения class_kii
   function calculateMaxClassKii() {
     var maxClassKii = -Infinity;
@@ -1598,7 +1599,7 @@ document.addEventListener("DOMContentLoaded", () => {
         showModalButton.classList.add("active");
         setTimeout(() => {
           showModalButton.classList.remove("active");
-        }, 2000); // Задержка 2 секунды
+        }, 3000); // Задержка 3 секунды
 
         // Активируем кнопки с определенными классами на несколько секунд
         document
