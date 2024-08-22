@@ -130,9 +130,9 @@ header {
 }
 
 h1 {
-    margin-bottom: 2%;
-    text-align: center;
-    font-size: 2.4em;
+  margin: 1%;
+  text-align: center;
+  font-size: 2.4em;
 }
 
 header p {
