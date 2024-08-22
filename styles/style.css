@@ -202,7 +202,17 @@ header {
   align-items: center;
 }
 
+.category.class_category {
+  margin: 0 auto;
+  display: flex;
+  width: max-content;
+  height: max-content;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 .category h2 {
+  margin: 0 auto;
   font-size: 1.2em;
   margin-bottom: 5px;
   text-align: center;
