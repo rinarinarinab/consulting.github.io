@@ -900,7 +900,7 @@ option {
     text-align: center;
     justify-content: center;
     align-items: center;
-}
+  }
 
   .kii button {
     width: 80%;
@@ -915,10 +915,13 @@ option {
     margin: 10px;
   }
 
-  .save_info, #undoButton, #receivedData_kii, #resetButton {
+  .save_info,
+  #undoButton,
+  #receivedData_kii,
+  #resetButton {
     width: 100px;
     font-size: 0.8em;
-}
+  }
 
   .save_info_text {
     display: flex;
